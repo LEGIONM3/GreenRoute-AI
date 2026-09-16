@@ -1,0 +1,70 @@
+# ==============================================================================
+# Canary Deployment Configuration with NGINX Ingress Traffic Weighting (10%)
+# ==============================================================================
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wastecare-backend-canary
+  namespace: wastecare-production
+  labels:
+    app.kubernetes.io/name: wastecare-backend
+    release-track: canary
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: wastecare-backend
+      release-track: canary
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: wastecare-backend
+        release-track: canary
+    spec:
+      containers:
+        - name: backend
+          image: ghcr.io/wastecare/wastecare-backend:1.1.0-canary
+          ports:
+            - containerPort: 8000
+          envFrom:
+            - configMapRef:
+                name: wastecare-config
+            - secretRef:
+                name: wastecare-secrets
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wastecare-backend-canary-service
+  namespace: wastecare-production
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8000
+      targetPort: 8000
+  selector:
+    app.kubernetes.io/name: wastecare-backend
+    release-track: canary
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: wastecare-backend-canary-ingress
+  namespace: wastecare-production
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/canary: "true"
+    nginx.ingress.kubernetes.io/canary-weight: "10"
+spec:
+  rules:
+    - host: api.wastecare.gov
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: wastecare-backend-canary-service
+                port:
+                  number: 8000

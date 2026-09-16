@@ -1,0 +1,57 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 1,
+  "id": 103,
+  "links": [],
+  "liveNow": true,
+  "panels": [
+    {
+      "title": "AI RAG Query Rate (Queries / Sec)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 8, "x": 0, "y": 0 },
+      "targets": [
+        { "expr": "rate(rag_queries_total[1m])", "legendFormat": "Queries/sec" }
+      ]
+    },
+    {
+      "title": "Initial Response Latency (TTFB, Target < 2s)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 8, "x": 8, "y": 0 },
+      "targets": [
+        { "expr": "rate(rag_response_duration_seconds_sum[1m]) / rate(rag_response_duration_seconds_count[1m])", "legendFormat": "TTFB Latency (sec)" }
+      ]
+    },
+    {
+      "title": "Groq LPU Generation Throughput (Tokens / Sec)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 8, "x": 16, "y": 0 },
+      "targets": [
+        { "expr": "rate(groq_tokens_total[1m])", "legendFormat": "Output Tokens/sec" }
+      ]
+    },
+    {
+      "title": "Hybrid Retrieval & Reranking Duration",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 8 },
+      "targets": [
+        { "expr": "rate(rag_retrieval_duration_seconds_sum[1m]) / rate(rag_retrieval_duration_seconds_count[1m]) * 1000", "legendFormat": "Vector Retrieval (ms)" }
+      ]
+    },
+    {
+      "title": "RAG Cache Hit Ratio",
+      "type": "gauge",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 8 },
+      "targets": [
+        { "expr": "(rate(rag_cache_hits_total[5m]) / (rate(rag_cache_hits_total[5m]) + rate(rag_cache_misses_total[5m]))) * 100", "legendFormat": "Hit Ratio %" }
+      ]
+    }
+  ],
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["phase11", "performance", "ai", "rag"],
+  "time": { "from": "now-1h", "to": "now" },
+  "title": "Municipal SaaS - AI RAG & Groq Metrics",
+  "version": 1
+}

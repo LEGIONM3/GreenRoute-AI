@@ -1,0 +1,4996 @@
+[
+  {
+    "id": "waste-001",
+    "name": "PET Beverage Bottle (Type 1)",
+    "aliases": [
+      "pet bottle",
+      "soda bottle",
+      "plastic bottle",
+      "water bottle",
+      "beverage bottle"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Empty liquid, rinse residue, crush flat, and replace cap before placing in dry bin.",
+    "recycling_guidance": "100% recyclable into polyester fiber yarn, geotextiles, strapping, and new bottle packaging.",
+    "safety_precautions": "Do not incinerate; burning releases harmful toxic hydrocarbons.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-002",
+    "name": "HDPE Milk & Juice Jug (Type 2)",
+    "aliases": [
+      "hdpe bottle",
+      "milk jug",
+      "juice container",
+      "opaque bottle"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse with water, drain, flatten to save volume, and place in blue dry bin.",
+    "recycling_guidance": "Recycled into drainage pipes, recycling bins, plastic lumber, and detergent bottles.",
+    "safety_precautions": "Ensure bottle is free of sour milk curds to prevent batch odor contamination.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-003",
+    "name": "HDPE Shampoo & Detergent Bottle",
+    "aliases": [
+      "shampoo bottle",
+      "soap bottle",
+      "detergent bottle",
+      "bleach bottle"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Pump out excess soap, rinse thoroughly, and recap.",
+    "recycling_guidance": "High recycling value; reprocessed into composite decking, crates, and new non-food containers.",
+    "safety_precautions": "Rinse out concentrated detergents before discarding to protect sanitation workers' skin.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-004",
+    "name": "PVC Water Pipe Offcuts (Type 3)",
+    "aliases": [
+      "pvc pipe",
+      "plumbing pipe",
+      "plastic conduit",
+      "drain pipe"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Bundle cleanly into lengths under 1 meter and hand over at dry waste recovery centers.",
+    "recycling_guidance": "Mechanically ground into vinyl flooring, mud flaps, and non-potable conduit piping.",
+    "safety_precautions": "Never burn PVC. Combustion produces deadly hydrogen chloride gas and dioxins.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-005",
+    "name": "LDPE Grocery Carry Bag (Type 4)",
+    "aliases": [
+      "plastic bag",
+      "carry bag",
+      "grocery bag",
+      "polythene",
+      "shopping bag"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Shake out food debris, gather multiple clean bags into a single ball, and place in dry bin.",
+    "recycling_guidance": "Pelletized into recycled film, construction moisture barriers, and composite trash bags.",
+    "safety_precautions": "Banned single-use polythene bags under 120 microns should be surrendered at municipal collection points.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-006",
+    "name": "LDPE Bubble Wrap & Cushioning",
+    "aliases": [
+      "bubble wrap",
+      "packaging film",
+      "air pouch",
+      "cushioning film"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Pop bubbles to reduce volume and pack with clean plastic film recycling.",
+    "recycling_guidance": "Recycled into composite lumber and protective building insulation.",
+    "safety_precautions": "Ensure tape labels are trimmed off if possible.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-007",
+    "name": "PP Food Delivery Container (Type 5)",
+    "aliases": [
+      "takeaway container",
+      "biryani box",
+      "plastic tub",
+      "curry container"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Wash away oily grease using cold soapy water, dry completely, and place in blue bin.",
+    "recycling_guidance": "Reprocessed into automotive parts, battery cases, broom bristles, and industrial buckets.",
+    "safety_precautions": "Unwashed greasy containers attract vermin and contaminate paper recycling bales.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-008",
+    "name": "PP Bottle Caps & Closures",
+    "aliases": [
+      "bottle cap",
+      "plastic cap",
+      "screw cap",
+      "jar lid"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Leave screwed securely onto empty crushed bottles so they do not fall through MRF sorting screens.",
+    "recycling_guidance": "Shredded and molded into industrial bins, plant pots, and battery casings.",
+    "safety_precautions": "Loose caps are easily lost in transit; keep attached to mother container.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-009",
+    "name": "PP Straws & Disposable Cutlery",
+    "aliases": [
+      "plastic straw",
+      "plastic spoon",
+      "plastic fork",
+      "disposable cutlery"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse food scraps and collect in a dry container. Single-use plastic items must be phased out.",
+    "recycling_guidance": "Low recyclability index due to small size; processed into Refuse Derived Fuel (RDF) for cement kilns.",
+    "safety_precautions": "Avoid single-use plastics; switch to stainless steel or bamboo cutlery.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-010",
+    "name": "PS Disposable Coffee Cup Lid (Type 6)",
+    "aliases": [
+      "coffee lid",
+      "cup lid",
+      "plastic lid"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse coffee stains and stack together in dry recyclables.",
+    "recycling_guidance": "Processed into extruded insulation panels and stationary trays.",
+    "safety_precautions": "Do not microwave polystyrene as styrene monomers can leach into hot liquids.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-011",
+    "name": "Expanded Polystyrene Foam (Thermocol)",
+    "aliases": [
+      "thermocol",
+      "styrofoam",
+      "eps foam",
+      "appliance packing"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Keep clean and dry. Deliver in bulk to municipal Material Recovery Facilities (MRF) equipped with foam densifiers.",
+    "recycling_guidance": "Hot-melt densification converts lightweight foam into dense polystyrene ingots for picture frames.",
+    "safety_precautions": "Never burn thermocol outdoors. Emits thick black toxic smoke containing styrene vapors.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-012",
+    "name": "Multi-Layer Plastic Snack Wrapper (Type 7)",
+    "aliases": [
+      "chips packet",
+      "biscuit wrapper",
+      "crisp pouch",
+      "metallized film"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Ensure crumb-free and completely dry. Deposit in dry waste bin for co-processing.",
+    "recycling_guidance": "Sent to authorized cement plants for co-processing as Refuse Derived Fuel (RDF) replacing coal.",
+    "safety_precautions": "Cannot be melted down mechanically due to bonded aluminum-plastic layers.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-013",
+    "name": "PET Clamshell Fruit Container",
+    "aliases": [
+      "clamshell",
+      "fruit box",
+      "clear berry box",
+      "transparent container"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse fruit juices, remove paper adhesive sticker, and crush flat.",
+    "recycling_guidance": "Processed with bottle grade flakes for thermoforming new trays.",
+    "safety_precautions": "Ensure adhesive labels with heavy rubber glue are removed if possible.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-014",
+    "name": "Toothpaste Tube (Laminated Plastic/Alloy)",
+    "aliases": [
+      "toothpaste tube",
+      "ointment tube",
+      "creme tube"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Squeeze out all remaining paste, cut open to rinse, and place in dry bin.",
+    "recycling_guidance": "Modern multi-material tubes are shredded for plastic-aluminum separation or RDF.",
+    "safety_precautions": "Do not throw in wet waste; residual paste does not make it compostable.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-015",
+    "name": "Plastic Cling Wrap & Saran Film",
+    "aliases": [
+      "cling film",
+      "cling wrap",
+      "food wrap",
+      "plastic film"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Clean food oils with water, bundle into a dry recycling ball.",
+    "recycling_guidance": "Blended with LDPE feedstock for industrial tarpaulins and garbage liners.",
+    "safety_precautions": "Keep separate from bio-waste.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-016",
+    "name": "Plastic Plant Pots & Seedling Trays",
+    "aliases": [
+      "plant pot",
+      "seedling tray",
+      "garden pot"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Knock out dried dirt and potting soil, rinse, and place in dry bin.",
+    "recycling_guidance": "Melted into heavy duty utility buckets and agricultural drainage pipes.",
+    "safety_precautions": "Shake off soil thoroughly as dirt abrades shredding blades at recycling plants.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-017",
+    "name": "Plastic Hangers (Polypropylene/Polystyrene)",
+    "aliases": [
+      "clothes hanger",
+      "plastic hanger",
+      "coat hanger"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Separate metal hook wire if detached; place plastic frame in blue bin.",
+    "recycling_guidance": "Recycled into shipping pallets and outdoor storage bins.",
+    "safety_precautions": "Damaged hangers should not be thrown into general mixed rubbish.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-018",
+    "name": "Plastic Milk Pouch (LDPE Rinsed)",
+    "aliases": [
+      "milk pouch",
+      "milk packet",
+      "curd packet"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Cut only a small corner (avoid detaching tip completely), rinse milk fat thoroughly, and dry.",
+    "recycling_guidance": "High grade LDPE is eagerly purchased by recyclers for pipe extrusion.",
+    "safety_precautions": "Unrinsed milk pouches generate foul bacterial odors within 12 hours.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-019",
+    "name": "Acrylic Sheet Offcuts (Perspex/Plexiglass)",
+    "aliases": [
+      "acrylic",
+      "perspex",
+      "plexiglass",
+      "clear sheet"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Stack safely without jagged edges and deposit at recycling centers.",
+    "recycling_guidance": "Depolymerized via thermal cracking back into liquid methyl methacrylate (MMA).",
+    "safety_precautions": "Wear protective gloves when handling cracked sheets.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-020",
+    "name": "Polycarbonate Water Dispenser Bottle (20L)",
+    "aliases": [
+      "water can",
+      "bisleri jar",
+      "water dispenser bottle",
+      "20 liter jar"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Return to water supplier for deposit reuse (can be reused up to 50 times); damaged cans go to blue bin.",
+    "recycling_guidance": "Shredded for automotive headlamp lenses, safety goggles, and electronic housings.",
+    "safety_precautions": "Inspect for micro-cracks before refilling.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-021",
+    "name": "Plastic Toothbrush (Manual)",
+    "aliases": [
+      "toothbrush",
+      "nylon toothbrush",
+      "brush"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse bristles, pack with rigid plastics. Consider bamboo alternatives.",
+    "recycling_guidance": "Handles (PP) are reprocessed into industrial park benches; bristles are incinerated.",
+    "safety_precautions": "Replace every 3 months; dispose in designated dry waste stream.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-022",
+    "name": "Plastic Dispenser Pumps & Sprayer Heads",
+    "aliases": [
+      "dispenser pump",
+      "spray nozzle",
+      "lotion pump"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Unscrew from bottle. Contains small internal stainless steel spring.",
+    "recycling_guidance": "Metal spring is separated magnetically after mechanical granulating.",
+    "safety_precautions": "Rinse residual lotion or sanitizer before discarding.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-023",
+    "name": "Plastic Straws & Stirrers",
+    "aliases": [
+      "straw",
+      "plastic straw",
+      "drink stirrer"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Collect in a closed container so they do not blow away during transport.",
+    "recycling_guidance": "Diverted to cement kilns for energy recovery (RDF).",
+    "safety_precautions": "Single-use plastic straws are prohibited under Plastic Waste Management Rules 2021.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-024",
+    "name": "Plastic Mesh Produce Bags (Onion/Potato net)",
+    "aliases": [
+      "mesh bag",
+      "vegetable net",
+      "onion sack",
+      "produce mesh"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Shake out vegetable skins and dry.",
+    "recycling_guidance": "Extruded into heavy duty industrial mesh and construction fiber.",
+    "safety_precautions": "Do not mix with organic wet waste.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-025",
+    "name": "Rigid Plastic Toy (Non-Electronic)",
+    "aliases": [
+      "plastic toy",
+      "lego brick",
+      "toy car",
+      "beach bucket"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Remove any metal screws or batteries. If reusable, donate to charity; otherwise place in blue bin.",
+    "recycling_guidance": "Blended ABS and PP are recycled into commercial utility boxes.",
+    "safety_precautions": "Ensure all electronic batteries are removed before disposal.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-026",
+    "name": "Clear Glass Bottle (Soda-Lime)",
+    "aliases": [
+      "glass bottle",
+      "beer bottle",
+      "soda glass",
+      "beverage glass"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse out residual beverage, let dry, and place carefully in blue dry bin.",
+    "recycling_guidance": "100% infinitely recyclable. Cullet glass melts at lower furnace temperatures, cutting emissions.",
+    "safety_precautions": "Never place broken glass loosely in trash bags; danger of lacerations to sanitation crew.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-027",
+    "name": "Amber Glass Medicine & Chemical Bottle",
+    "aliases": [
+      "amber bottle",
+      "syrup bottle",
+      "cough syrup bottle",
+      "tincture bottle"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Ensure empty of all medicinal liquid, rinse safely, and deposit in glass collection bin.",
+    "recycling_guidance": "Melted into new pharmaceutical-grade UV-protective amber packaging.",
+    "safety_precautions": "If bottle contains toxic chemo or cytotoxic drugs, treat as Hazardous Waste (Red Bin).",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-028",
+    "name": "Green Wine & Olive Oil Glass Bottle",
+    "aliases": [
+      "wine bottle",
+      "olive oil bottle",
+      "green glass"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse oil residues with warm water, remove cork, and place in glass recycling stream.",
+    "recycling_guidance": "Color-sorted and crushed into green cullet for new container manufacturing.",
+    "safety_precautions": "Keep color-separated where local sorting facilities request.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-029",
+    "name": "Glass Food Jar (Jam, Pickle, Honey)",
+    "aliases": [
+      "jam jar",
+      "pickle jar",
+      "honey jar",
+      "mayonnaise jar",
+      "mason jar"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Scrape food remnants, rinse with water, remove tin lid (lid goes in metal stream).",
+    "recycling_guidance": "Melted and reformed into new glass jars indefinitely with zero degradation.",
+    "safety_precautions": "Do not leave sugary syrup inside; attracts pests and insects.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-030",
+    "name": "Broken Window Panes & Sheet Glass",
+    "aliases": [
+      "window glass",
+      "flat glass",
+      "broken pane",
+      "window pane"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Wrap securely in thick multi-layered newspaper, tape closed, and label clearly 'BROKEN GLASS'.",
+    "recycling_guidance": "Flat glass has different melting point than container glass; reprocessed into fiberglass and aggregate.",
+    "safety_precautions": "Handling without puncture-resistant gloves causes severe puncture injuries.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-031",
+    "name": "Tempered Glass Screen Protector",
+    "aliases": [
+      "screen guard",
+      "tempered glass",
+      "phone glass"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Wrap in paper and place in dry waste bin.",
+    "recycling_guidance": "Composite silicone adhesive layer prevents bottle furnace recycling; sent to aggregate recycling.",
+    "safety_precautions": "Do not snap in half; shards can spray into eyes.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-032",
+    "name": "Borosilicate Glass Cookware (Pyrex)",
+    "aliases": [
+      "pyrex",
+      "borosil",
+      "baking dish",
+      "heat resistant glass"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "If broken, wrap safely in paper. Do NOT mix with regular bottle glass.",
+    "recycling_guidance": "Higher melting point contaminates standard glass recycling furnaces; crushed for construction sand.",
+    "safety_precautions": "Cannot be processed in normal glass cullet furnaces.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-033",
+    "name": "Glass Perfume & Cologne Bottle",
+    "aliases": [
+      "perfume bottle",
+      "scent bottle",
+      "fragrance bottle"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Ensure fragrance is empty. Remove metallic spray nozzle with pliers if possible.",
+    "recycling_guidance": "High clarity flint glass is remelted into luxury cosmetic containers.",
+    "safety_precautions": "Flammable alcohol vapors must be completely evaporated before transport.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-034",
+    "name": "Glass Laboratory Beakers & Flasks",
+    "aliases": [
+      "beaker",
+      "lab flask",
+      "test tube",
+      "conical flask"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Decontaminate thoroughly with neutralizing wash before discarding.",
+    "recycling_guidance": "Specialty chemical glass is downcycled into abrasive grit and industrial pavers.",
+    "safety_precautions": "Contaminated lab glassware must be autoclaved before municipal disposal.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-035",
+    "name": "Glass Drinkware & Tumblers",
+    "aliases": [
+      "glass tumbler",
+      "water glass",
+      "drinking glass",
+      "chai glass"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse and place in dry bin. If chipped or cracked, wrap in thick paper.",
+    "recycling_guidance": "Contains lead or fluxes in some crystal variants; processed with specialty cullet.",
+    "safety_precautions": "Wrap chipped rims securely to avoid cut hazards.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-036",
+    "name": "Mirrors & Silvered Glass Shards",
+    "aliases": [
+      "mirror",
+      "looking glass",
+      "silvered glass"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Wrap in protective cardboard sheets. Do not commingle with container glass.",
+    "recycling_guidance": "Silver/chemical backing paint prevents standard glass remelting; used in asphalt/concrete fillers.",
+    "safety_precautions": "Reflective shards cause deep puncture wounds if left exposed.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-037",
+    "name": "Eyeglass & Spectacle Lenses",
+    "aliases": [
+      "spectacle lens",
+      "glasses lens",
+      "optical lens"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Donate usable frames to vision charities; scratched lenses wrap in paper.",
+    "recycling_guidance": "Polycarbonate and CR-39 resin lenses are separated for polymer recycling.",
+    "safety_precautions": "Optical coatings do not pose hazardous toxicity.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-038",
+    "name": "Glass Marbles & Decorative Pebbles",
+    "aliases": [
+      "marbles",
+      "glass pebbles",
+      "aquarium stones"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Collect in a sturdy box and donate or place in blue bin.",
+    "recycling_guidance": "Easily melted down with general soda-lime glass cullet.",
+    "safety_precautions": "Choking hazard for young children; store securely.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-039",
+    "name": "Glass Candle Jar (Wax Residue)",
+    "aliases": [
+      "candle jar",
+      "scented candle glass"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Pour boiling water into jar to melt and float residual wax out, wipe clean, place jar in blue bin.",
+    "recycling_guidance": "Clean jars melt efficiently without smoky carbon residue in cullet furnaces.",
+    "safety_precautions": "Wax residue will cause furnace smoke if not removed.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-040",
+    "name": "Glass Ampoules (Cosmetic/Medical Clean)",
+    "aliases": [
+      "ampoule",
+      "cosmetic ampoule",
+      "serum vial"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Ensure empty. Wrap sharp snapped glass neck in adhesive tape.",
+    "recycling_guidance": "High purity glass is sterilized and remelted.",
+    "safety_precautions": "Sharp edges require careful wrapping.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-041",
+    "name": "Aluminum Beverage Can",
+    "aliases": [
+      "soda can",
+      "coke can",
+      "beer can",
+      "aluminum can",
+      "tin can"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse sweet liquid, crush vertically to minimize storage footprint, and toss into blue bin.",
+    "recycling_guidance": "Recycling aluminum saves 95% of the energy needed to produce virgin metal from bauxite ore.",
+    "safety_precautions": "Ensure cans are drained to avoid sticky bacterial rot.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-042",
+    "name": "Tinplate Steel Food & Soup Can",
+    "aliases": [
+      "tin can",
+      "canned food",
+      "soup can",
+      "tuna can",
+      "baked beans can"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse food grease, place lid inside the can, and lightly pinch can opening.",
+    "recycling_guidance": "Separated rapidly via industrial electromagnets; melted into automotive steel sheet.",
+    "safety_precautions": "Sharp can lids pose severe cut hazard; push lid down inside can.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-043",
+    "name": "Aluminum Foil & Takeaway Trays",
+    "aliases": [
+      "aluminum foil",
+      "silver foil",
+      "foil tray",
+      "food foil"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Wipe away gravy and oils. Roll multiple pieces into a compact aluminum sphere.",
+    "recycling_guidance": "Pelletized foil melts into secondary aluminum casting ingots.",
+    "safety_precautions": "Heavily food-soiled foil should be rinsed or diverted if excessively charred.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-044",
+    "name": "Copper Wire & Cable Scrap",
+    "aliases": [
+      "copper wire",
+      "electrical cable",
+      "copper tubing",
+      "stripped wire"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Coil neatly and deposit at an authorized electrical or metal scrap center.",
+    "recycling_guidance": "High value commodity; electrolytic refining produces 99.99% pure cathode copper.",
+    "safety_precautions": "Do not burn plastic insulation off wire; open burning creates toxic furan and dioxin fumes.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-045",
+    "name": "Brass Fittings, Valves & Door Hardware",
+    "aliases": [
+      "brass valve",
+      "brass tap",
+      "door handle",
+      "brass fitting"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Remove rubber washers or plastic sleeves; deposit with scrap metals.",
+    "recycling_guidance": "Melted in foundry crucibles to produce new plumbing fixtures and hardware.",
+    "safety_precautions": "Heavy weight; store in durable collection bins.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-046",
+    "name": "Aerosol Spray Can (Empty Deodorant/Insecticide)",
+    "aliases": [
+      "deodorant can",
+      "spray can",
+      "insecticide can",
+      "spray paint"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Ensure completely depressurized and empty. Do NOT puncture or crush yourself.",
+    "recycling_guidance": "Specialized facilities pierce under inert nitrogen to recover steel or aluminum canisters.",
+    "safety_precautions": "Residual propellants are pressurized volatile hydrocarbons; high explosion risk in trash compactor trucks.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-047",
+    "name": "Steel Bottle Crowns & Metal Jar Lids",
+    "aliases": [
+      "bottle cap metal",
+      "crown cap",
+      "metal lid",
+      "pickle lid"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Collect inside a steel soup can and crimp closed so small caps do not jam sorting machinery.",
+    "recycling_guidance": "Magnetically extracted and processed in electric arc furnaces.",
+    "safety_precautions": "Sharp crimped edges can cut fingers.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-048",
+    "name": "Metal Cutlery & Cooking Utensils",
+    "aliases": [
+      "stainless steel spoon",
+      "fork",
+      "knife",
+      "metal ladle",
+      "steel plate"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Donate usable utensils. Damaged items place in dry metal recycling stream.",
+    "recycling_guidance": "Stainless steel contains nickel and chromium, retaining high scrap recovery value.",
+    "safety_precautions": "Wrap sharp kitchen knives in cardboard and tape before disposal.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-049",
+    "name": "Iron & Steel Nails, Screws & Fasteners",
+    "aliases": [
+      "nails",
+      "screws",
+      "nuts and bolts",
+      "fasteners"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Put inside a metal tin or container to prevent puncturing collection bags.",
+    "recycling_guidance": "Melted directly with general ferrous scrap in induction furnaces.",
+    "safety_precautions": "Loose nails puncture collection truck tires and injure sanitation workers.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-050",
+    "name": "Galvanized Iron Roofing & Sheet Metal",
+    "aliases": [
+      "galvanized sheet",
+      "corrugated tin roof",
+      "sheet metal"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Stack flat or roll with wire binding; deliver to municipal scrap depot.",
+    "recycling_guidance": "Zinc coating is captured in baghouse filters during electric arc furnace melting.",
+    "safety_precautions": "Wear heavy leather work gloves when handling sharp galvanized edges.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-051",
+    "name": "Metal Wire Coat Hangers",
+    "aliases": [
+      "metal hanger",
+      "wire hanger",
+      "dry cleaner hanger"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Return to dry cleaners for reuse, or bundle together for metal collection.",
+    "recycling_guidance": "Shredded for steel scrap re-melting.",
+    "safety_precautions": "Untangled loose hangers snag conveyer belts at recycling sorting plants.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-052",
+    "name": "Aluminum Siding & Window Frames",
+    "aliases": [
+      "window frame",
+      "aluminum channel",
+      "aluminum extrusion"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Remove glass panes, weatherstripping rubber, and steel screws.",
+    "recycling_guidance": "Extrusion grade 6063 alloy is remelted into new architectural structural profiles.",
+    "safety_precautions": "Disassemble composite materials before delivery.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-053",
+    "name": "Metal Keys (Brass & Nickel)",
+    "aliases": [
+      "keys",
+      "house key",
+      "padlock key"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Place in dry metal bin. Consider metal scrap bin.",
+    "recycling_guidance": "Smelted with copper and brass alloys.",
+    "safety_precautions": "De-identify any address tags before disposal.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-054",
+    "name": "Empty Paint Cans (Dried Latex/Water-based)",
+    "aliases": [
+      "paint can",
+      "paint tin",
+      "primer can"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Allow water-based paint residue to dry rock-hard under sun before placing in metal bin.",
+    "recycling_guidance": "Steel cans are magnetically segregated and incinerated in smelting furnaces.",
+    "safety_precautions": "Liquid paint must NEVER be thrown in trash. Wet solvent paint is Hazardous (Red).",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-055",
+    "name": "Lead Fishing Weights & Sinkers",
+    "aliases": [
+      "lead sinker",
+      "fishing weights",
+      "lead weight"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Do NOT throw in municipal trash. Hand over to hazardous waste or battery reclamation centers.",
+    "recycling_guidance": "Secondary lead smelting plants refine lead for industrial batteries.",
+    "safety_precautions": "Toxic heavy metal. Wash hands thoroughly after handling. High neurotoxicity.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-056",
+    "name": "Corrugated Cardboard Shipping Box",
+    "aliases": [
+      "cardboard box",
+      "amazon box",
+      "shipping carton",
+      "corrugated paper"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Remove plastic packaging tape, flatten box completely, keep dry.",
+    "recycling_guidance": "Repulped into new kraft linerboard and cardboard boxes up to 7 times.",
+    "safety_precautions": "Do not allow boxes to get wet in rain; water weakens cellulose fibers and promotes mold.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-057",
+    "name": "Old Newspapers & Newsprint",
+    "aliases": [
+      "newspaper",
+      "newsprint",
+      "raddi",
+      "daily paper"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Stack neatly, tie with cotton twine, keep dry in blue recycling stream.",
+    "recycling_guidance": "De-inked and repulped into fresh newsprint, egg cartons, and paper towels.",
+    "safety_precautions": "Keep away from cooking oils and wet kitchen waste.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-058",
+    "name": "Magazines & Glossy Catalogues",
+    "aliases": [
+      "magazine",
+      "catalogue",
+      "brochure",
+      "glossy paper"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Keep flat and dry. Plastic subscription wrappers must be removed and placed in plastic stream.",
+    "recycling_guidance": "Kaolin clay coating is separated during flotation de-inking; fibers reused for printing paper.",
+    "safety_precautions": "Remove poly-wrap sleeves before recycling.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-059",
+    "name": "Office Paper & Document Printouts",
+    "aliases": [
+      "office paper",
+      "printer paper",
+      "a4 sheets",
+      "documents"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Shred confidential papers. Remove metal binder clips (staples are acceptable).",
+    "recycling_guidance": "High-grade bleached chemical pulp; recycled into premium writing paper and tissues.",
+    "safety_precautions": "Shredded paper should be placed inside a paper bag so it does not scatter in wind.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-060",
+    "name": "Tetra Pak Aseptic Cartons (Milk/Juice)",
+    "aliases": [
+      "tetra pak",
+      "juice carton",
+      "milk carton",
+      "aseptic packaging"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Unfold corners, rinse milk/juice residue, flatten, and deposit in dry bin.",
+    "recycling_guidance": "Specialized hydropulping separates 75% paper fiber for cartons and 25% PolyAl for roof tiles.",
+    "safety_precautions": "Unrinsed cartons turn sour and foul recycling facilities.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-061",
+    "name": "Paper Grocery Bags & Kraft Sacks",
+    "aliases": [
+      "paper bag",
+      "kraft bag",
+      "brown bag",
+      "takeout paper bag"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Empty crumbs, fold flat, and recycle with dry paper.",
+    "recycling_guidance": "Long kraft fibers add structural strength to recycled paper packaging.",
+    "safety_precautions": "Greasy paper bags contaminated with butter or oil belong in compost (Green Bin).",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-062",
+    "name": "Egg Cartons (Molded Paper Pulp)",
+    "aliases": [
+      "egg carton",
+      "egg tray",
+      "pulp carton"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Ensure clean without broken egg yolk stains. Can also be shredded for home composting.",
+    "recycling_guidance": "Made from low-grade recycled newsprint; composts rapidly or recycled into molded pulp.",
+    "safety_precautions": "Egg cartons with broken raw egg leaks should be composted in wet bin.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-063",
+    "name": "Phone Books & Yellow Pages Directories",
+    "aliases": [
+      "phone book",
+      "directory",
+      "yellow pages"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Remove plastic wrap, keep dry with paper collection.",
+    "recycling_guidance": "Processed into insulation cellulose, hydroseeding mulch, and packaging fillers.",
+    "safety_precautions": "Dry storage prevents mold growth.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-064",
+    "name": "Paper Envelopes (With/Without Clear Window)",
+    "aliases": [
+      "envelope",
+      "letter envelope",
+      "mail"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "No need to cut out plastic address windows; screens filter film during pulping.",
+    "recycling_guidance": "Recycled with mixed office papers.",
+    "safety_precautions": "Ensure paper contents are removed before recycling.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-065",
+    "name": "Paperboard Cereal & Shoe Boxes",
+    "aliases": [
+      "cereal box",
+      "shoe box",
+      "tissue box",
+      "carton box"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Remove inner plastic liner bag (liner goes to plastic bin), flatten box.",
+    "recycling_guidance": "Melted into recycled chipboard for book covers and puzzle boards.",
+    "safety_precautions": "Flattening preserves bin volume.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-066",
+    "name": "Paper Towel & Toilet Paper Tubes",
+    "aliases": [
+      "cardboard core",
+      "toilet roll tube",
+      "towel core"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Flatten core and place in dry bin or drop into home compost bin.",
+    "recycling_guidance": "Repulped into cardboard boxes or molded egg cartons.",
+    "safety_precautions": "100% biodegradable and recyclable.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-067",
+    "name": "Wrapping Paper (Non-Metallic/Non-Glitter)",
+    "aliases": [
+      "wrapping paper",
+      "gift wrap",
+      "gift paper"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Perform the scrunch test: if it stays crumpled, it is recyclable paper.",
+    "recycling_guidance": "De-inked for low-grade paper products.",
+    "safety_precautions": "Foil, metallic, or glitter gift wrap cannot be recycled; throw in general waste.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-068",
+    "name": "Thermal Cash Register Receipts",
+    "aliases": [
+      "receipt",
+      "bill",
+      "thermal paper",
+      "atm slip"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Dispose in general or hazardous bin. Do NOT mix with paper recycling.",
+    "recycling_guidance": "Coated with Bisphenol-A (BPA) or BPS chemical developers that contaminate paper pulp batches.",
+    "safety_precautions": "Contains endocrine-disrupting BPA chemicals; do not compost.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-069",
+    "name": "Paper Coffee Cups (PE Lined)",
+    "aliases": [
+      "coffee cup",
+      "paper cup",
+      "disposable cup"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Empty liquid. Separate plastic lid (lid to plastic). Take cup to MRF with poly-separation.",
+    "recycling_guidance": "Polyethylene liner requires specialized high-consistency pulpers to strip plastic layer.",
+    "safety_precautions": "Consider bringing your own reusable thermal mug to coffee shops.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-070",
+    "name": "Greasy Pizza Box (Cheese/Oil Stained)",
+    "aliases": [
+      "pizza box",
+      "takeout pizza carton"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Tear off clean top lid for paper recycling (Blue Bin); tear oily bottom into wet compost (Green Bin).",
+    "recycling_guidance": "Oil and melted cheese ruin paper slurry; composters break down organic grease easily.",
+    "safety_precautions": "Never put grease-soaked cardboard in blue paper bins.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-071",
+    "name": "Raw Vegetable Peels & Scraps",
+    "aliases": [
+      "vegetable waste",
+      "onion skins",
+      "potato peels",
+      "carrot tops"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Place directly into green bin or home composting pit without plastic bags.",
+    "recycling_guidance": "Aerobic composting yields nutrient-dense organic humus in 45-60 days.",
+    "safety_precautions": "Do not wrap in plastic shopping bags before throwing into green bin.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-072",
+    "name": "Citrus Rinds & Fruit Peels",
+    "aliases": [
+      "orange peel",
+      "lemon rind",
+      "banana peel",
+      "apple core"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Chop into smaller pieces for faster composting rate.",
+    "recycling_guidance": "Enriches compost with nitrogen, potassium, and beneficial bio-enzymes.",
+    "safety_precautions": "Excessive citrus in worm vermicomposters can harm earthworms; balance with brown leaves.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-073",
+    "name": "Cooked Food Leftovers & Spoiled Meals",
+    "aliases": [
+      "cooked food",
+      "leftover rice",
+      "curry waste",
+      "spoiled food"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Drain excess gravy/liquid into drain, place solid scraps in green bin.",
+    "recycling_guidance": "Fed to municipal anaerobic biomethanation digesters to generate green electricity & Bio-CNG.",
+    "safety_precautions": "Cover compost caddy to prevent fruit fly and rodent infestation.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-074",
+    "name": "Coffee Grounds & Paper Coffee Filters",
+    "aliases": [
+      "coffee grounds",
+      "used coffee",
+      "filter paper"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Dump grounds and unbleached paper filters straight into green bin.",
+    "recycling_guidance": "Excellent source of nitrogen (greens) that accelerates thermophilic composting heat.",
+    "safety_precautions": "Keep separate from plastic pods.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-075",
+    "name": "Tea Leaves & Unstapled Tea Bags",
+    "aliases": [
+      "tea leaves",
+      "used tea",
+      "chai patti",
+      "tea bag"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Remove metal staple pin and synthetic tags. Place leaves in green bin.",
+    "recycling_guidance": "Rapidly decomposes into natural soil conditioner.",
+    "safety_precautions": "Ensure tea bags do not contain synthetic nylon or polyester pyramid mesh.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-076",
+    "name": "Crushed Eggshells",
+    "aliases": [
+      "egg shells",
+      "eggshell waste"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Rinse lightly, crush with hands to speed calcium release, and add to compost.",
+    "recycling_guidance": "Provides slow-release calcium carbonate vital for garden plant cell walls.",
+    "safety_precautions": "Crushing helps deter garden pests like slugs.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-077",
+    "name": "Dry Fallen Leaves & Tree Clippings",
+    "aliases": [
+      "dry leaves",
+      "fallen leaves",
+      "garden waste",
+      "twigs"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Collect in burlap sacks. Add as 'browns' (carbon) to balance nitrogen food waste.",
+    "recycling_guidance": "Essential carbon source for balanced aerobic hot composting.",
+    "safety_precautions": "NEVER burn dry leaves. Burning causes severe winter air pollution and PM2.5 smog.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-078",
+    "name": "Fresh Lawn Grass Clippings",
+    "aliases": [
+      "grass clippings",
+      "mowed grass",
+      "lawn waste"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Spread in thin layers in compost or mulch directly around tree beds.",
+    "recycling_guidance": "High moisture and nitrogen; decomposes within 10-14 days.",
+    "safety_precautions": "Avoid dumping thick wet piles without turning; can generate anaerobic odor.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-079",
+    "name": "Coconut Shells & Coconut Husk (Coir)",
+    "aliases": [
+      "coconut shell",
+      "coir",
+      "nariyal khol"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Break shells into smaller pieces or take to municipal bio-mass centers.",
+    "recycling_guidance": "Processed into coco-peat potting soil, briquettes, and activated carbon filters.",
+    "safety_precautions": "Very dense lignin takes 1-2 years to break down in standard home compost pits.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-080",
+    "name": "Meat Bones & Fish Remains",
+    "aliases": [
+      "meat bones",
+      "chicken bones",
+      "fish skeleton"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Place in municipal wet waste bin (accepted in commercial industrial digesters).",
+    "recycling_guidance": "Digested at high heat in municipal biomethanation plants or ground into bone meal fertilizer.",
+    "safety_precautions": "Do not add to open backyard compost piles as bones attract stray animals.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-081",
+    "name": "Stale Bread, Rotis & Bakery Products",
+    "aliases": [
+      "stale bread",
+      "old roti",
+      "bakery waste",
+      "biscuit crumbs"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Tear into pieces and add to green compost bin.",
+    "recycling_guidance": "Breaks down rapidly into microbial nourishment.",
+    "safety_precautions": "Keep dry until composting to avoid premature black mold spores indoors.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-082",
+    "name": "Used Wooden Toothpicks & Skewers",
+    "aliases": [
+      "toothpick",
+      "bamboo skewer",
+      "wooden stick"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Snap in half and add to green bin or compost bin.",
+    "recycling_guidance": "100% biodegradable natural wood fiber.",
+    "safety_precautions": "Ensure pointed ends are snapped so they do not pierce sanitation workers' gloves.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-083",
+    "name": "Natural Corn Cobs & Husks",
+    "aliases": [
+      "corn cob",
+      "bhutta husk",
+      "maize waste"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Chop cobs into disks and add to green bin.",
+    "recycling_guidance": "Provides excellent aeration pockets inside compost piles.",
+    "safety_precautions": "Hard cobs take several months to fully disintegrate.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-084",
+    "name": "Cut Flower Bouquets & Floral Offerings",
+    "aliases": [
+      "flowers",
+      "puja flowers",
+      "wilted bouquet",
+      "garland"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Remove plastic wrapping ribbons and metal wires; drop flowers in green bin.",
+    "recycling_guidance": "Converted into temple compost or natural incense sticks via civic initiatives.",
+    "safety_precautions": "Remove synthetic glitter and dye ribbons before composting.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-085",
+    "name": "Raw Coconut Water Shell",
+    "aliases": [
+      "green coconut",
+      "tender coconut",
+      "daak"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Deposit at designated municipal green waste collection skips.",
+    "recycling_guidance": "Shredded in municipal woodchippers for biomass fuel pellets and erosion control blankets.",
+    "safety_precautions": "Heavy weight; do not mix into fragile plastic curbside bins.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-086",
+    "name": "Spent Lead-Acid Automotive Battery",
+    "aliases": [
+      "car battery",
+      "lead battery",
+      "inverter battery",
+      "ups battery"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Store upright in acid-proof tray. Return to battery retailer under EPR buy-back rules.",
+    "recycling_guidance": "Smelted at authorized secondary lead refineries; recovers 98% of lead plates and plastic casing.",
+    "safety_precautions": "Extremely corrosive sulfuric acid causes severe chemical burns. Lead causes nervous damage.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-087",
+    "name": "Expired Chemical Pesticides & Herbicides",
+    "aliases": [
+      "pesticide",
+      "insecticide",
+      "weed killer",
+      "rat poison"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Keep in original labeled container. Hand over exclusively to hazardous collection depots.",
+    "recycling_guidance": "High temperature thermal destruction in specialized hazardous incinerators (>1100°C).",
+    "safety_precautions": "Never pour down storm drains, toilets, or onto open ground. Lethal to aquatic life and groundwater.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-088",
+    "name": "Solvent-Based Oil Paint & Varnishes",
+    "aliases": [
+      "oil paint",
+      "varnish",
+      "wood stain",
+      "lacquer"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Keep tightly sealed in can. Surrender to hazardous waste depot.",
+    "recycling_guidance": "Solvents are recovered via industrial vacuum distillation; pigment solids used as fuel substitute.",
+    "safety_precautions": "Highly flammable vapors. Toxic when inhaled in enclosed spaces.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-089",
+    "name": "Turpentine, Kerosene & Paint Thinner",
+    "aliases": [
+      "thinner",
+      "paint thinner",
+      "turpentine",
+      "mineral spirits"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Seal bottle tightly with hazardous warning tape. Take to hazardous drop-off.",
+    "recycling_guidance": "Repurposed as high-calorific fuel blend in industrial blast furnaces.",
+    "safety_precautions": "Volatile organic compounds (VOCs) ignite at low flashpoints. Store away from heat.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-090",
+    "name": "Mercury Glass Medical Thermometer",
+    "aliases": [
+      "mercury thermometer",
+      "clinical thermometer"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Store intact inside a plastic pill bottle padded with cotton. Take to hazardous center.",
+    "recycling_guidance": "Pure elemental mercury is triple-distilled for industrial instrumentation.",
+    "safety_precautions": "If broken, do NOT vacuum or sweep with broom. Ventilate room, push beads with card into jar, seal.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-091",
+    "name": "Fluorescent Tube Light & CFL Bulb",
+    "aliases": [
+      "cfl",
+      "tube light",
+      "mercury vapor lamp",
+      "fluorescent bulb"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Keep intact inside original cardboard sleeve. Surrender to hazardous drop kiosk.",
+    "recycling_guidance": "Automated crushing under negative pressure captures toxic mercury vapor and phosphor powder.",
+    "safety_precautions": "Broken tubes release neurotoxic mercury vapor. Open windows immediately if broken.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-092",
+    "name": "Chemical Drain Cleaner (Lye/Sulfuric Acid)",
+    "aliases": [
+      "drain cleaner",
+      "caustic soda",
+      "acid cleaner"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Do not mix with other cleaners. Deliver to municipal hazardous waste drop-off.",
+    "recycling_guidance": "Neutralized in specialized alkaline/acid treatment reactors.",
+    "safety_precautions": "Mixing with bleach generates deadly chlorine gas. Causes instantaneous severe tissue burns.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-093",
+    "name": "Aerosol Spray Paint Cans",
+    "aliases": [
+      "spray paint",
+      "graffiti paint",
+      "aerosol paint"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Ensure empty; take to hazardous depot. Do not puncture.",
+    "recycling_guidance": "Depressurized and metal reclaimed.",
+    "safety_precautions": "Explosion hazard if crushed in general municipal collection trucks.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-094",
+    "name": "Mothballs & Naphthalene Balls",
+    "aliases": [
+      "mothballs",
+      "naphthalene",
+      "camphor balls"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Keep in airtight bag. Surrender to chemical waste collection point.",
+    "recycling_guidance": "Incinerated in controlled chemical destruction chambers.",
+    "safety_precautions": "Naphthalene fumes cause hemolytic anemia and respiratory irritation; keep away from children.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-095",
+    "name": "Corrosive Toilet Bowl Acid Cleaner (HCl)",
+    "aliases": [
+      "toilet acid",
+      "muriatic acid",
+      "hydrochloric acid"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Never discard down storm drains. Surrender remaining liquid at hazardous center.",
+    "recycling_guidance": "Neutralized using lime slurry in municipal chemical treatment tanks.",
+    "safety_precautions": "Fumes irritate lungs; splash on skin causes chemical burns.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-096",
+    "name": "Spent Chlorine Tablets & Pool Chemicals",
+    "aliases": [
+      "chlorine tablets",
+      "pool chemical",
+      "bleach powder"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Keep dry in original container. Hand over at hazardous station.",
+    "recycling_guidance": "Controlled dilution and neutralization in effluent treatment plants.",
+    "safety_precautions": "Reacts violently with organic matter or acids to release toxic chlorine gas.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-097",
+    "name": "PCB-Containing Fluorescent Ballasts",
+    "aliases": [
+      "ballast",
+      "light ballast",
+      "choke"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Deposit at hazardous electrical dismantling station.",
+    "recycling_guidance": "Polychlorinated biphenyls (PCBs) require hazardous high-temperature plasma incineration.",
+    "safety_precautions": "PCBs are persistent bioaccumulative organic pollutants and human carcinogens.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-098",
+    "name": "Expired Mosquito Vaporizer Liquid & Mats",
+    "aliases": [
+      "all out liquid",
+      "good knight refill",
+      "mosquito refill"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Keep capped in hazardous red bin. Do not throw in household wet bin.",
+    "recycling_guidance": "Prallethrin and synthetic pyrethroids are incinerated under environmental supervision.",
+    "safety_precautions": "Toxic to cats, fish, and beneficial pollinating insects.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-099",
+    "name": "Shoe Polish (Solvent/Paste Based)",
+    "aliases": [
+      "shoe polish",
+      "boot polish",
+      "wax polish"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Seal tin and discard in red hazardous stream.",
+    "recycling_guidance": "Incinerated in municipal industrial incinerator.",
+    "safety_precautions": "Contains petroleum distillates and solvent dyes.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-100",
+    "name": "Wood Preservative & Creosote Stains",
+    "aliases": [
+      "creosote",
+      "wood preservative",
+      "termite chemical"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Deliver tightly closed can to hazardous facility.",
+    "recycling_guidance": "Treated in specialized industrial toxic waste cells.",
+    "safety_precautions": "Known carcinogen; avoid all skin contact.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-101",
+    "name": "Expired Prescription Antibiotics & Tablets",
+    "aliases": [
+      "pills",
+      "medicines",
+      "capsules",
+      "expired tablets",
+      "antibiotics"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Keep in blister packs. Deposit in hospital take-back kiosk or municipal hazardous bin.",
+    "recycling_guidance": "High-temperature medical incineration (1100°C) per CPCB Biomedical Waste Rules.",
+    "safety_precautions": "Never flush down toilet; pollutes rivers and breeds drug-resistant superbugs.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-102",
+    "name": "Used Insulin Syringes & Needles (Sharps)",
+    "aliases": [
+      "syringe",
+      "insulin needle",
+      "injection needle",
+      "sharps"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Place inside a puncture-proof thick plastic bottle or designated sharps box with lid taped shut.",
+    "recycling_guidance": "Autoclaved at 121°C to sterilize pathogens, then shredded and encapsulated.",
+    "safety_precautions": "Extreme needle-stick risk. Can transmit HIV, Hepatitis B, and bloodborne viruses to sanitation staff.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-103",
+    "name": "Blood-Soiled Cotton Bandages & Dressings",
+    "aliases": [
+      "bandage",
+      "gauze",
+      "cotton dressing",
+      "blood swab"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Wrap securely in newspaper, mark with a red cross/dot, place in red bin.",
+    "recycling_guidance": "Incinerated in bio-hazardous medical incinerators per BMW Rules 2016.",
+    "safety_precautions": "Biohazard. Infectious pathogens can survive on moist bandages for days.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-104",
+    "name": "Used Disposable Surgical Masks (3-Ply/N95)",
+    "aliases": [
+      "surgical mask",
+      "face mask",
+      "n95 mask",
+      "medical mask"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Cut ear loops with scissors (protects wildlife), wrap in paper, place in red bin.",
+    "recycling_guidance": "Shredded and sterilized with high-pressure steam before disposal.",
+    "safety_precautions": "Do not throw loosely on streets or in open gutters.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-105",
+    "name": "Used Latex & Nitrile Medical Gloves",
+    "aliases": [
+      "surgical gloves",
+      "rubber gloves",
+      "latex gloves",
+      "nitrile gloves"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Peel off inside-out without touching exterior surface, place in hazardous red bin.",
+    "recycling_guidance": "Treated with chemical disinfectant or autoclaving prior to shredding.",
+    "safety_precautions": "Non-biodegradable synthetic polymers; do not place in green wet waste.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-106",
+    "name": "Expired Liquid Syrups & Suspensions",
+    "aliases": [
+      "cough syrup",
+      "tonic",
+      "liquid medicine",
+      "suspension"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Leave in original glass or plastic bottle. Drop at pharmacy return bin.",
+    "recycling_guidance": "Destroyed via rotary kiln medical incinerators.",
+    "safety_precautions": "Flushing down municipal sewer lines damages wastewater treatment bacteria.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-107",
+    "name": "Intravenous (IV) Saline & Glucose Bags",
+    "aliases": [
+      "iv bag",
+      "saline bottle",
+      "drip bag"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Drain contents, place in biomedical collection stream.",
+    "recycling_guidance": "Sterilized with chemical autoclaving and recycled into non-medical industrial PVC.",
+    "safety_precautions": "Ensure needle and cannula are detached and disposed in sharps container.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-108",
+    "name": "Blood Lancet & Glucose Test Strips",
+    "aliases": [
+      "lancet",
+      "test strip",
+      "glucometer strip",
+      "diabetic needle"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Place lancet cap back on. Seal in puncture-proof sharps bottle.",
+    "recycling_guidance": "Sterilized and ground into inert medical residue.",
+    "safety_precautions": "Sharp points easily pierce plastic garbage liners.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-109",
+    "name": "Expired Inhalers & Asthma Canisters",
+    "aliases": [
+      "inhaler",
+      "asthma pump",
+      "salbutamol inhaler"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Return to pharmacy or hazardous waste kiosk. Do not puncture canister.",
+    "recycling_guidance": "HFA propellants are captured before metal canister recycling.",
+    "safety_precautions": "Pressurized canister can explode if placed in general incinerator.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-110",
+    "name": "Disposable Urine & Catheter Drainage Bags",
+    "aliases": [
+      "urine bag",
+      "catheter bag",
+      "drainage bag"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Empty urine into toilet, wrap plastic bag in newspaper, mark red dot, place in red bin.",
+    "recycling_guidance": "Autoclaved and shredded under strict hospital waste protocols.",
+    "safety_precautions": "High bacterial biohazard risk.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-111",
+    "name": "Expired Ointments & Topical Creams",
+    "aliases": [
+      "ointment",
+      "antifungal cream",
+      "medical gel",
+      "steroid tube"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Leave in tube, cap tightly, place in red hazardous bin.",
+    "recycling_guidance": "Thermally decomposed in biomedical incinerators.",
+    "safety_precautions": "Active pharmaceutical ingredients harm aquatic micro-organisms if washed into sinks.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-112",
+    "name": "Empty Blister Packs of Medicine",
+    "aliases": [
+      "blister pack",
+      "strip",
+      "tablet wrapper",
+      "pill foil"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Ensure all pills are removed. Place empty blister strip in blue dry bin.",
+    "recycling_guidance": "Processed through delamination machines to separate aluminum foil and PVC plastic film.",
+    "safety_precautions": "Do not leave residual pills in pack.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-113",
+    "name": "Dental Floss & Interdental Brushes",
+    "aliases": [
+      "dental floss",
+      "interdental brush",
+      "floss pick"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Dispose in dry waste bin. Floss is nylon-coated Teflon.",
+    "recycling_guidance": "Incinerated for energy recovery (RDF).",
+    "safety_precautions": "Never flush floss down toilet; binds with fat to create sewer fatbergs.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-114",
+    "name": "Hospital Patient Identification Wristband",
+    "aliases": [
+      "patient band",
+      "id wristband",
+      "hospital band"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Cut and destroy personal medical data, place in dry bin.",
+    "recycling_guidance": "Recycled with synthetic vinyl and polyester.",
+    "safety_precautions": "Protects personal health data privacy.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-115",
+    "name": "Expired Eye & Ear Drops",
+    "aliases": [
+      "eye drops",
+      "ear drops",
+      "eyedrops bottle"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Keep in bottle, discard in red hazardous bin.",
+    "recycling_guidance": "Chemical components neutralized in biomedical incinerator.",
+    "safety_precautions": "Do not pour down drain.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-116",
+    "name": "Old Smartphone & Mobile Handset",
+    "aliases": [
+      "smartphone",
+      "cellphone",
+      "mobile phone",
+      "iphone",
+      "android"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Perform full factory data reset, remove SIM/SD cards, deliver to EPR authorized kiosk.",
+    "recycling_guidance": "High-tech hydrometallurgical processing recovers gold (0.034g), silver, copper, and rare-earth neodymium.",
+    "safety_precautions": "Never sell to informal scrap burners who use hazardous cyanide and nitric acid baths.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-117",
+    "name": "Laptop Computer & Notebook",
+    "aliases": [
+      "laptop",
+      "notebook",
+      "thinkpad",
+      "macbook"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Back up data and wipe drive. Hand over intact to certified e-waste dismantler.",
+    "recycling_guidance": "Dismantled into aluminum chassis, copper heat pipes, motherboards, and battery cells.",
+    "safety_precautions": "Do not attempt to crush or puncture lithium battery embedded inside.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-118",
+    "name": "Lithium-Ion Rechargeable Battery Pack",
+    "aliases": [
+      "li-ion battery",
+      "laptop battery",
+      "power bank",
+      "18650 cell"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Tape over terminal contacts with insulation tape. Keep in dry container. Drop at e-waste hub.",
+    "recycling_guidance": "Closed-loop recycling recovers cobalt, nickel, and battery-grade lithium carbonate.",
+    "safety_precautions": "High fire risk. Mechanical crushing causes immediate explosive thermal runaway.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-119",
+    "name": "Computer Motherboard & Circuit Board (PCB)",
+    "aliases": [
+      "motherboard",
+      "circuit board",
+      "pcb",
+      "green board"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Store in antistatic envelope. Deliver to certified e-waste recycling center.",
+    "recycling_guidance": "Pyrometallurgical smelting reclaims precious gold, silver, palladium, and solder tin.",
+    "safety_precautions": "Contains lead solder and brominated flame retardants; toxic to burn.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-120",
+    "name": "Alkaline AA / AAA / 9V Dry Cell Batteries",
+    "aliases": [
+      "pencil battery",
+      "dry cell",
+      "remote battery",
+      "duracell",
+      "alkaline battery"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Tape contact ends to prevent short circuits. Drop in battery drop box.",
+    "recycling_guidance": "Zinc and manganese oxides are extracted for agricultural fertilizers and steel alloying.",
+    "safety_precautions": "Corroded batteries leak potassium hydroxide caustic paste; handle with rubber gloves.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-121",
+    "name": "Desktop Computer Monitor (LCD/LED/OLED)",
+    "aliases": [
+      "monitor",
+      "computer screen",
+      "display",
+      "led monitor"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Keep screen intact to prevent glass breakage. Hand over to e-waste collector.",
+    "recycling_guidance": "Backlight indium-tin-oxide, copper cabling, and optical diffusers are segregated.",
+    "safety_precautions": "Older monitors may contain CCFL mercury backlights; handle gently.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-122",
+    "name": "Computer Keyboard & Optical Mouse",
+    "aliases": [
+      "keyboard",
+      "mouse",
+      "usb mouse",
+      "keypad"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Wrap cord around device and deposit in e-waste bin.",
+    "recycling_guidance": "ABS plastic casing and internal membrane circuit sheets are granulated for reuse.",
+    "safety_precautions": "Do not throw in household garbage.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-123",
+    "name": "USB Charging Cables & Power Cords",
+    "aliases": [
+      "charger cable",
+      "usb cord",
+      "lightning cable",
+      "hdmi cable"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Bundle with rubber band. Deliver to e-waste drop-off box.",
+    "recycling_guidance": "Granulation plants strip PVC/TPE outer jacket and granulate 99% pure copper conductor.",
+    "safety_precautions": "Do not burn cables in open yard fires.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-124",
+    "name": "Wi-Fi Router & Network Switch",
+    "aliases": [
+      "router",
+      "modem",
+      "wifi box",
+      "switch"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Factory reset router to erase stored Wi-Fi credentials. Hand over to e-waste center.",
+    "recycling_guidance": "Recovers copper connectors, transformer coils, and flame-retardant casing.",
+    "safety_precautions": "Erase network passwords before disposal.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-125",
+    "name": "Old Microwave Oven",
+    "aliases": [
+      "microwave",
+      "oven",
+      "kitchen appliance"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Unplug, clean food grease, transport to appliance recovery depot.",
+    "recycling_guidance": "Heavy copper transformer, capacitor, and steel enclosure are remelted.",
+    "safety_precautions": "DANGER: High-voltage capacitor retains lethal charge even when unplugged for weeks. Never dismantle magnetron.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-126",
+    "name": "Electric Iron & Steam Press",
+    "aliases": [
+      "iron",
+      "steam iron",
+      "clothes iron"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Drain water tank, coil cord, take to e-waste center.",
+    "recycling_guidance": "Cast aluminum soleplate, heating element, and thermostat bi-metal strips are recovered.",
+    "safety_precautions": "Let cool completely before packaging.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-127",
+    "name": "Audio Earphones, Headphones & Earbuds",
+    "aliases": [
+      "headphones",
+      "earbuds",
+      "airpods",
+      "earphones"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Keep in charging case. Take to e-waste collection kiosk.",
+    "recycling_guidance": "Recovers miniature neodymium magnets, micro lithium batteries, and copper voice coils.",
+    "safety_precautions": "Tiny wireless earbuds contain micro lithium cells that burn if compacted.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-128",
+    "name": "Smartwatch & Fitness Tracker Band",
+    "aliases": [
+      "smartwatch",
+      "fitness band",
+      "apple watch",
+      "fitbit"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Factory reset, detach silicone wristband (band to plastic stream), watch to e-waste.",
+    "recycling_guidance": "High density electronic miniaturization recovery.",
+    "safety_precautions": "Erase health and biometric personal data.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-129",
+    "name": "Tablet Computer & iPad",
+    "aliases": [
+      "tablet",
+      "ipad",
+      "kindle",
+      "e-reader"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Erase personal account, place in e-waste bin.",
+    "recycling_guidance": "High recovery yield of lithium, cobalt, and display components.",
+    "safety_precautions": "Do not bend or puncture swollen battery displays.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-130",
+    "name": "Television Set (LED/Smart TV)",
+    "aliases": [
+      "television",
+      "tv",
+      "smart tv"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Transport screen face-up, protected with blanket. Hand over to municipal bulk e-waste service.",
+    "recycling_guidance": "Circuit boards, power supply capacitors, and structural chassis are recycled.",
+    "safety_precautions": "Heavy weight; call municipal bulk pickup.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-131",
+    "name": "Concrete Rubble & Broken Paver Blocks",
+    "aliases": [
+      "concrete",
+      "rubble",
+      "cement chunks",
+      "paver block"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Segregate from municipal trash. Transport to designated municipal C&D Waste Processing Plant.",
+    "recycling_guidance": "Crushed in impact crushers to produce Recycled Concrete Aggregate (RCA) and manufactured sand (M-Sand).",
+    "safety_precautions": "Dumping concrete in stormwater drains or vacant plots is a punishable offense under C&D Waste Rules.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-132",
+    "name": "Broken Ceramic Floor & Wall Tiles",
+    "aliases": [
+      "ceramic tiles",
+      "broken tile",
+      "vitrified tile",
+      "mosaic"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Collect in sturdy gunny bags; deliver to C&D processing facility.",
+    "recycling_guidance": "Crushed into sub-base aggregate for road construction and interlocking paver block mix.",
+    "safety_precautions": "Sharp tile edges slice through standard footwear; wear steel-toed boots.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-133",
+    "name": "Gypsum Drywall & Plasterboard Scraps",
+    "aliases": [
+      "drywall",
+      "gypsum board",
+      "plasterboard",
+      "sheetrock"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Keep dry and separate from wet cement; deliver to gypsum recyclers.",
+    "recycling_guidance": "Crushed and calcinated back into new gypsum plaster and soil amendment.",
+    "safety_precautions": "If buried in wet municipal landfills, gypsum decomposes into smelly toxic hydrogen sulfide gas.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-134",
+    "name": "Asphalt Roofing Shingles & Road Millings",
+    "aliases": [
+      "asphalt",
+      "shingles",
+      "tar chunks",
+      "bitumen"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Collect without dirt contamination; take to asphalt batching plant.",
+    "recycling_guidance": "Heated and re-blended into Reclaimed Asphalt Pavement (RAP) for highway resurfacing.",
+    "safety_precautions": "Keep free of combustible wood debris.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-135",
+    "name": "Mineral Glass Wool Insulation",
+    "aliases": [
+      "glass wool",
+      "rock wool",
+      "fiberglass insulation"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Pack tightly into double-sealed heavy duty plastic bags.",
+    "recycling_guidance": "Melted in high-temperature glass furnaces for industrial refractory brick binding.",
+    "safety_precautions": "Glass fibers cause severe respiratory irritation and skin itch. Wear N95 respirator and gloves.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-136",
+    "name": "Red Clay Bricks & Broken Masonry",
+    "aliases": [
+      "brick",
+      "red brick",
+      "masonry rubble",
+      "mortar"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Clean mortar if feasible for brick reuse; rubble goes to C&D plant.",
+    "recycling_guidance": "Ground into surkhi powder for lime mortar and drainage backfill aggregate.",
+    "safety_precautions": "Do not mix with household domestic waste.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-137",
+    "name": "PVC Plumbing Conduit & Drainage Offcuts",
+    "aliases": [
+      "pvc scrap",
+      "pipe offcuts",
+      "conduit scrap"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Separate from mortar; bundle together.",
+    "recycling_guidance": "Granulated for non-pressure sewage pipe manufacturing.",
+    "safety_precautions": "Keep free of wet plaster.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-138",
+    "name": "Broken Marble & Granite Slab Trimmings",
+    "aliases": [
+      "marble",
+      "granite",
+      "stone slab",
+      "countertop scrap"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Deliver to stone crushing units or mosaic artisans.",
+    "recycling_guidance": "Crushed into terrazzo flooring chips, decorative garden gravel, and stone slurry lime.",
+    "safety_precautions": "Heavy weight; secure vehicle load during transit.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-139",
+    "name": "Sand & Silt Excavation Spoils",
+    "aliases": [
+      "sand",
+      "silt",
+      "digging soil",
+      "excavation dirt"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Transport to municipal low-lying land reclamation or brick kilns.",
+    "recycling_guidance": "Used for civil road sub-grades and embankment stabilization.",
+    "safety_precautions": "Ensure soil is free from industrial chemical contamination.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-140",
+    "name": "Mortar & Plaster Lumps",
+    "aliases": [
+      "mortar",
+      "plaster scrap",
+      "cured cement"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Deliver to C&D aggregate crushing station.",
+    "recycling_guidance": "Crushed for unpaved road base layers.",
+    "safety_precautions": "Do not throw in household garbage bins.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-141",
+    "name": "Asbestos Cement Roofing Sheets (Dangerous)",
+    "aliases": [
+      "asbestos sheet",
+      "corrugated cement sheet",
+      "asbestos"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "WET THOROUGHLY to prevent airborne dust. Never saw or break. Wrap in 200-micron polythene, label HAZARDOUS ASBESTOS.",
+    "recycling_guidance": "Disposed exclusively in dedicated engineered hazardous landfill cells with GPS tracking.",
+    "safety_precautions": "LETHAL INHALATION HAZARD. Inhaled asbestos fibers cause incurable mesothelioma lung cancer.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-142",
+    "name": "Hardened Leftover Cement Bags",
+    "aliases": [
+      "caked cement",
+      "hard cement",
+      "spoiled cement"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Crush hard lumps for foundation fill. Paper sack goes to paper recycling.",
+    "recycling_guidance": "Used as road foundation base rock.",
+    "safety_precautions": "Keep cement dust out of eyes and airways.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-143",
+    "name": "Ceramic Sanitaryware (Broken Toilet Bowl/Sink)",
+    "aliases": [
+      "commode",
+      "sink",
+      "washbasin",
+      "ceramic sanitary"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Deliver to C&D recycling yard. Wear goggles when handling.",
+    "recycling_guidance": "Ground into fine refractory powder for ceramic kiln furniture.",
+    "safety_precautions": "Vitreous china shards are razor-sharp.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-144",
+    "name": "Plywood & Particle Board Construction Offcuts",
+    "aliases": [
+      "plywood scrap",
+      "mdf offcut",
+      "particle board"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Keep separate from untreated wood. Take to biomass boiler facility.",
+    "recycling_guidance": "Burned in industrial boilers equipped with toxic urea-formaldehyde scrubbers.",
+    "safety_precautions": "Do not burn in home fireplaces or campfires; emits toxic formaldehyde fumes.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-145",
+    "name": "Tar Paper & Waterproofing Bituminous Felt",
+    "aliases": [
+      "tar paper",
+      "bitumen sheet",
+      "waterproofing membrane"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Roll neatly; take to commercial demolition waste depot.",
+    "recycling_guidance": "Blended with road asphalt binder.",
+    "safety_precautions": "Combustible; keep away from open flames.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-146",
+    "name": "Old Cotton Clothes & T-Shirts",
+    "aliases": [
+      "cotton shirt",
+      "old clothes",
+      "jeans",
+      "cotton fabric",
+      "t-shirt"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Wash, dry, and fold. If wearable, donate to charity; torn garments go to textile recovery.",
+    "recycling_guidance": "Mechanically shredded into recycled cotton fiber for insulation, soundproofing, and wiping rags.",
+    "safety_precautions": "Ensure clothes are clean and dry; damp fabric rots and produces mold in transit.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-147",
+    "name": "Polyester Sportswear & Fleece Jackets",
+    "aliases": [
+      "polyester",
+      "fleece",
+      "synthetic clothes",
+      "nylon shirt"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Donate wearable items. Worn out items go to dry textile bins.",
+    "recycling_guidance": "Chemically depolymerized or shredded into carpet underlay and acoustic automotive pads.",
+    "safety_precautions": "Synthetic fibers shed microplastics; wash inside a filter bag.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-148",
+    "name": "Worn Out Sneakers & Athletic Shoes",
+    "aliases": [
+      "sneakers",
+      "shoes",
+      "running shoes",
+      "footwear"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Tie pair together with laces. Drop in footwear recycling collection boxes.",
+    "recycling_guidance": "Separated into rubber soles (crushed for playground turf) and fabric uppers.",
+    "safety_precautions": "Do not throw in wet waste.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-149",
+    "name": "Leather Belts, Shoes & Wallets",
+    "aliases": [
+      "leather belt",
+      "leather shoes",
+      "leather wallet",
+      "handbag"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Donate usable items. Damaged leather surrender to specialty leather crafts.",
+    "recycling_guidance": "Ground into bonded leather composite sheets for footwear counters and bookbinding.",
+    "safety_precautions": "Chromium-tanned leather should not be incinerated outdoors.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-150",
+    "name": "Wool Sweaters & Blankets",
+    "aliases": [
+      "wool sweater",
+      "woolen blanket",
+      "shawl",
+      "cardigan"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Wash and air-dry. Surrender to wool reclamation centers.",
+    "recycling_guidance": "Shredded into premium reclaimed shoddy wool for winter relief blankets and yarn.",
+    "safety_precautions": "Wool is naturally flame-resistant and biodegradable.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-151",
+    "name": "Nylon Curtains & Window Drapes",
+    "aliases": [
+      "curtains",
+      "drapes",
+      "nylon fabric"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Remove plastic curtain rings and hooks; fold neatly in dry bin.",
+    "recycling_guidance": "Repelletized into engineering nylon pellets for automotive zip ties and gears.",
+    "safety_precautions": "Ensure metal hooks are detached.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-152",
+    "name": "Denim Jeans & Jackets",
+    "aliases": [
+      "denim",
+      "blue jeans",
+      "jean jacket"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Donate usable jeans. Shredded scrap makes home thermal insulation.",
+    "recycling_guidance": "Extremely durable cotton fibers are recycled into denim building insulation batting.",
+    "safety_precautions": "Remove large metal buckles if feasible.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-153",
+    "name": "Silk Sarees & Silk Garments",
+    "aliases": [
+      "silk saree",
+      "silk dress",
+      "pure silk"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Heritage sarees can be upcycled into cushion covers; scraps go to textile recycling.",
+    "recycling_guidance": "Natural protein fibers are re-spun into luxury blended textiles.",
+    "safety_precautions": "Zari border metal threads can be reclaimed for silver content.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-154",
+    "name": "Synthetic Microfiber Cleaning Cloths",
+    "aliases": [
+      "microfiber cloth",
+      "cleaning rag",
+      "duster"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Rinse dirt, dry, and place in dry recyclables.",
+    "recycling_guidance": "Used in industrial machinery oil wipes.",
+    "safety_precautions": "Do not mix with organic compost.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-155",
+    "name": "Old Bed Sheets & Pillowcases",
+    "aliases": [
+      "bedsheet",
+      "pillow cover",
+      "bed linen"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Launder and donate to animal shelters for bedding, or place in textile bin.",
+    "recycling_guidance": "Cut into industrial cleaning rags for mechanics and workshops.",
+    "safety_precautions": "Animal shelters eagerly accept old clean bedsheets.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-156",
+    "name": "Jute Gunny Sacks & Burlap Bags",
+    "aliases": [
+      "gunny bag",
+      "jute sack",
+      "burlap"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Organic / Wet (Green)",
+    "disposal_method": "Shake out grain dust. Composts naturally or reuse for garden mulch.",
+    "recycling_guidance": "100% natural bast fiber; enriches soil aeration and compost carbon balance.",
+    "safety_precautions": "Natural jute is fully eco-friendly.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-157",
+    "name": "Mattress Polyurethane Foam",
+    "aliases": [
+      "foam",
+      "mattress foam",
+      "sponge cushion"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Strip fabric cover; take foam core to commercial foam densifier.",
+    "recycling_guidance": "Shredded and bonded under heat to create bonded foam for gym mats and carpet cushion.",
+    "safety_precautions": "Highly flammable; keep away from open sparks.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-158",
+    "name": "Socks & Undergarments (Worn Out)",
+    "aliases": [
+      "socks",
+      "underwear",
+      "worn socks"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Wash clean. Drop in textile recovery bins for industrial wiping cloth shredding.",
+    "recycling_guidance": "Shredded for automotive acoustic insulation and paper pulp additives.",
+    "safety_precautions": "Must be laundered before recycling handover.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-159",
+    "name": "Umbrella Fabric (Waterproof Nylon)",
+    "aliases": [
+      "umbrella",
+      "rain umbrella"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Separate metal steel rib frame (to metal bin) from nylon canopy cloth.",
+    "recycling_guidance": "Steel frame is melted; waterproof nylon is downcycled.",
+    "safety_precautions": "Sharp metal ribs must be tied safely.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-160",
+    "name": "Cloth Shopping & Canvas Tote Bags",
+    "aliases": [
+      "tote bag",
+      "canvas bag",
+      "cloth bag"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Reuse hundreds of times; damaged bags drop in textile collection.",
+    "recycling_guidance": "Recycled into recycled cotton yarn and heavyweight canvas.",
+    "safety_precautions": "Best sustainable replacement for single-use polythene.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-161",
+    "name": "Ceramic Coffee Mugs & Crockery",
+    "aliases": [
+      "ceramic mug",
+      "cup",
+      "ceramic plate",
+      "crockery",
+      "clay pot"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "If chipped or broken, wrap in paper and place in blue dry bin.",
+    "recycling_guidance": "Crushed for refractory road sub-base and drainage aggregate.",
+    "safety_precautions": "Ceramic cannot be melted with container glass. Do not mix with beer/soda bottles.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-162",
+    "name": "Incandescent Filament Light Bulb",
+    "aliases": [
+      "bulb",
+      "tungsten bulb",
+      "lamp",
+      "filament bulb"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Wrap in paper and place in dry bin. Does NOT contain mercury.",
+    "recycling_guidance": "Metal screw base is recycled for brass/aluminum; filament glass is downcycled.",
+    "safety_precautions": "Distinct from fluorescent CFL bulbs which are toxic Hazardous (Red).",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-163",
+    "name": "Synthetic Kitchen Washing Sponge",
+    "aliases": [
+      "scrub pad",
+      "kitchen sponge",
+      "scotch brite"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Rinse out food oils, wring dry, discard in dry bin.",
+    "recycling_guidance": "Composite polyurethane and polyester; incinerated for energy recovery (RDF).",
+    "safety_precautions": "Harbors bacteria; replace every 3-4 weeks. Cannot be composted.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-164",
+    "name": "Used Cigarette Butts & Filters",
+    "aliases": [
+      "cigarette butt",
+      "filter",
+      "smoke butt"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Ensure fully extinguished with water before discarding.",
+    "recycling_guidance": "Cellulose acetate plastic filters are chemically recycled into paper pulp and plastic pellets.",
+    "safety_precautions": "Contains toxic nicotine and arsenic; never toss into nature or storm drains.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-165",
+    "name": "Disposable Baby Diapers & Adult Incontinence Pads",
+    "aliases": [
+      "diaper",
+      "baby diaper",
+      "huggies",
+      "pampers"
+    ],
+    "category": "Household",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Scrape solid fecal matter into toilet, wrap soiled diaper tightly, place in red bin.",
+    "recycling_guidance": "High-temperature sanitary incineration or specialized autoclave pyrolysis.",
+    "safety_precautions": "Major biohazard. Never flush down toilet. Takes 500+ years to degrade in landfills.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-166",
+    "name": "Used Sanitary Pads & Tampons",
+    "aliases": [
+      "sanitary pad",
+      "tampon",
+      "menstrual pad",
+      "whisper",
+      "stayfree"
+    ],
+    "category": "Household",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Wrap securely in marked newspaper with a prominent RED DOT. Place in Red Bin.",
+    "recycling_guidance": "Destroyed in centralized municipal incinerators at 900°C per SWM Rules 2016.",
+    "safety_precautions": "Never throw in open or flush in toilets; causes severe sewer line blockages.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-167",
+    "name": "Vacuum Cleaner Dust & Sweeping Dirt",
+    "aliases": [
+      "dust",
+      "vacuum dirt",
+      "floor sweeping"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Pack inside a paper bag and seal before putting in dry waste.",
+    "recycling_guidance": "Diverted to landfill capping or waste-to-energy.",
+    "safety_precautions": "Loose dust can blow into sanitation workers' eyes and lungs.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-168",
+    "name": "Wax Crayons & Coloring Pastels",
+    "aliases": [
+      "crayons",
+      "wax crayon",
+      "oil pastel"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Melt stubs together into new multi-color crayons, or dispose in dry bin.",
+    "recycling_guidance": "Paraffin wax can be recovered by specialty school charity drives.",
+    "safety_precautions": "Non-toxic to children; keep away from heat.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-169",
+    "name": "Broken Umbrella Metal Skeleton",
+    "aliases": [
+      "umbrella ribs",
+      "broken umbrella"
+    ],
+    "category": "Household",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Separate fabric; fold metal spokes and tie securely.",
+    "recycling_guidance": "Ferrous steel scrap is melted down.",
+    "safety_precautions": "Spokes can puncture collection bags.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-170",
+    "name": "Plastic Ballpoint Pens & Empty Refills",
+    "aliases": [
+      "pen",
+      "ball pen",
+      "refill"
+    ],
+    "category": "Household",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Drop in plastic collection bin. Switch to refillable fountain pens.",
+    "recycling_guidance": "Polycarbonate barrel is granulated.",
+    "safety_precautions": "Small plastic items accumulate quickly; collect in bulk before disposal.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-171",
+    "name": "Candle Wax Stubs & Drippings",
+    "aliases": [
+      "candle wax",
+      "paraffin wax"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Melt down to make new emergency candles, or place in dry bin.",
+    "recycling_guidance": "Reprocessed into industrial lubricants and fuel blocks.",
+    "safety_precautions": "Do not throw in organic wet bin.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-172",
+    "name": "Empty Deodorant Roll-On Bottle",
+    "aliases": [
+      "roll on",
+      "rollon bottle"
+    ],
+    "category": "Household",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Pop out plastic roller ball, rinse liquid residue, place in blue bin.",
+    "recycling_guidance": "High grade PP and HDPE are recycled.",
+    "safety_precautions": "Separate ball and bottle for optimal sorting.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-173",
+    "name": "Plastic Clothespins & Pegs",
+    "aliases": [
+      "clothespin",
+      "clothes peg"
+    ],
+    "category": "Household",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Remove small metal spring wire; place plastic in blue bin.",
+    "recycling_guidance": "Reprocessed into utility plastic products.",
+    "safety_precautions": "Separate metal and plastic components.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-174",
+    "name": "Used Rubber Bands (Natural/Synthetic)",
+    "aliases": [
+      "rubber band",
+      "elastic band"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Store for reuse. Worn degraded rubber place in dry waste bin.",
+    "recycling_guidance": "Synthetic elastomers are compounded for rubberized asphalt.",
+    "safety_precautions": "Keep away from sunlight to avoid brittleness.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-175",
+    "name": "Synthetic Wet Wipes (Baby Wipes/Facial Wipes)",
+    "aliases": [
+      "wet wipes",
+      "baby wipes",
+      "facial wipes"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Discard in dry bin. NEVER flush in toilet bowl.",
+    "recycling_guidance": "Made of woven plastic microfibers (polyester) that do NOT break down in water.",
+    "safety_precautions": "Flushing wipes causes catastrophic sewer pump blockages and city fatbergs.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-176",
+    "name": "Used Vulcanized Car & Motorcycle Tires",
+    "aliases": [
+      "tyre",
+      "tire",
+      "car tyre",
+      "rubber tyre"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Automotive (Dry)",
+    "disposal_method": "Surrender to tire dealer under EPR Tire Regulations. Never burn.",
+    "recycling_guidance": "Shredded into crumb rubber for athletic running tracks, playground turf, and rubberized asphalt.",
+    "safety_precautions": "Burning tires releases thick toxic black smoke, benzene, sulfur dioxide, and mutagenic oils.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-177",
+    "name": "Used Engine Motor Oil (Lubricant)",
+    "aliases": [
+      "engine oil",
+      "motor oil",
+      "used oil",
+      "mobil oil"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Drain into a sealed container. Hand over exclusively to authorized used oil re-refiners.",
+    "recycling_guidance": "Vacuum re-refining produces high-grade Group II base oils, saving virgin petroleum.",
+    "safety_precautions": "1 liter of used motor oil can contaminate 1 million liters of clean freshwater. Highly toxic.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-178",
+    "name": "Engine Oil Filters (Metal & Paper Core)",
+    "aliases": [
+      "oil filter",
+      "car filter"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Puncture dome and hot-drain residual oil for 24 hours into waste oil container.",
+    "recycling_guidance": "Crushed to extract remaining oil; steel shell is melted down in foundries.",
+    "safety_precautions": "Contains entrapped hazardous petroleum sludge.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-179",
+    "name": "Ethylene Glycol Engine Coolant & Antifreeze",
+    "aliases": [
+      "coolant",
+      "antifreeze",
+      "radiator fluid"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Store in dedicated labeled container. Deliver to automotive hazardous station.",
+    "recycling_guidance": "Fractional distillation recovers pure ethylene glycol for reuse.",
+    "safety_precautions": "Sweet taste is EXTREMELY POISONOUS to children and pets. Causes fatal kidney failure.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-180",
+    "name": "Automotive Asbestos-Free Brake Pads",
+    "aliases": [
+      "brake pad",
+      "brake shoe",
+      "brake lining"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Automotive (Dry)",
+    "disposal_method": "Collect in heavy box; deposit at automotive scrap recycling facility.",
+    "recycling_guidance": "Metallic friction compounds and backing steel plates are separated magnetically.",
+    "safety_precautions": "Brake dust contains fine particulate matter; do not blow with compressed air.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-181",
+    "name": "Automotive Windshield Wiper Blades",
+    "aliases": [
+      "wiper blade",
+      "wiper rubber",
+      "car wiper"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Automotive (Dry)",
+    "disposal_method": "Separate metal frame from silicone/rubber insert.",
+    "recycling_guidance": "Metal arms are recycled; rubber inserts are downcycled.",
+    "safety_precautions": "Replace blades annually for road safety.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-182",
+    "name": "Automotive Lead-Acid Starter Battery",
+    "aliases": [
+      "car battery",
+      "auto battery",
+      "12v battery"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Surrender to battery vendor for statutory cash refund/buy-back credit.",
+    "recycling_guidance": "Lead plates are melted in smelters; acid is neutralized into sodium sulfate.",
+    "safety_precautions": "Never dump battery acid into sewer.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-183",
+    "name": "Automotive Catalytic Converter",
+    "aliases": [
+      "catalytic converter",
+      "cat con",
+      "exhaust catalyst"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Automotive (Dry)",
+    "disposal_method": "Deliver intact to licensed precious metals auto dismantler.",
+    "recycling_guidance": "Contains high-value platinum, palladium, and rhodium catalyst metals.",
+    "safety_precautions": "Theft target; keep stored securely before recycling handover.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-184",
+    "name": "Laminated Automotive Windshield Safety Glass",
+    "aliases": [
+      "windshield",
+      "car windshield",
+      "windscreen"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Automotive (Dry)",
+    "disposal_method": "Deliver to specialized automotive glass dismantler.",
+    "recycling_guidance": "Mechanical peelers strip the flexible polyvinyl butyral (PVB) interlayer from glass.",
+    "safety_precautions": "Cannot be melted in standard bottle glass furnaces.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-185",
+    "name": "Used Spark Plugs",
+    "aliases": [
+      "spark plug"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Automotive (Dry)",
+    "disposal_method": "Collect with scrap metals in blue bin.",
+    "recycling_guidance": "High alumina ceramic insulator and nickel-alloy electrodes are reclaimed.",
+    "safety_precautions": "Heavy metal scrap value.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-186",
+    "name": "Automotive Shock Absorber Struts",
+    "aliases": [
+      "shock absorber",
+      "strut",
+      "suspension"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Automotive (Dry)",
+    "disposal_method": "Relieve internal pressure and drain hydraulic oil before scrap handover.",
+    "recycling_guidance": "High strength steel cylinders are remelted in electric arc furnaces.",
+    "safety_precautions": "Pressurized gas units can explode if sheared without prior de-gassing.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-187",
+    "name": "Used Transmission & Gearbox Fluid",
+    "aliases": [
+      "transmission fluid",
+      "atf",
+      "gear oil"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Collect in leak-proof jug; return to oil recycling station.",
+    "recycling_guidance": "Re-refined into industrial grade hydraulic and gear oils.",
+    "safety_precautions": "Harms soil microbiology if spilled.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-188",
+    "name": "Vehicle Air Filter (Pleated Paper)",
+    "aliases": [
+      "air filter",
+      "car air filter"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Automotive (Dry)",
+    "disposal_method": "Knock out dry dust, discard in dry waste bin.",
+    "recycling_guidance": "Polyurethane frame and paper element are processed for energy recovery (RDF).",
+    "safety_precautions": "Dirty filters should not be washed and reused.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-189",
+    "name": "Automotive Alternator & Starter Motor",
+    "aliases": [
+      "alternator",
+      "starter motor",
+      "dynamo"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Surrender to electrical rebuilder or e-waste recycling depot.",
+    "recycling_guidance": "Heavy copper stator windings and aluminum housing hold prime scrap recovery value.",
+    "safety_precautions": "High recovery value.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-190",
+    "name": "Blown Automotive Headlamp Bulbs (Halogen/Xenon)",
+    "aliases": [
+      "headlight bulb",
+      "car bulb",
+      "halogen bulb"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Wrap in paper, dispose in hazardous stream.",
+    "recycling_guidance": "Quartz glass and tungsten filament are reclaimed.",
+    "safety_precautions": "Xenon HID bulbs contain high internal gas pressure.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-191",
+    "name": "Industrial Wooden Shipping Pallets",
+    "aliases": [
+      "pallet",
+      "wooden pallet",
+      "skid",
+      "wood crate"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Repair damaged slats for reuse; unrepairable pallets chip into wood mulch.",
+    "recycling_guidance": "Shredded into boiler fuel biomass, particle board feedstock, and landscape mulch.",
+    "safety_precautions": "Inspect for 'HT' stamp (Heat Treated). Avoid chemically treated 'MB' (Methyl Bromide) pallets.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-192",
+    "name": "Pulverized Coal Fly Ash",
+    "aliases": [
+      "fly ash",
+      "coal ash",
+      "thermal ash"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Store in sealed dry silo. Transport in closed bulk tankers.",
+    "recycling_guidance": "Mandatory component in eco-friendly Pozzolana Portland Cement (PPC) and fly ash bricks.",
+    "safety_precautions": "Inhaling dry airborne ash dust causes silicosis and lung damage.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-193",
+    "name": "Metal Machining Swarf & Shavings",
+    "aliases": [
+      "swarf",
+      "metal shavings",
+      "borings",
+      "turnings",
+      "drill shavings"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Centrifuge to remove cutting oil fluids; compress into dense briquettes for smelting.",
+    "recycling_guidance": "Melted in foundry cupolas with minimal oxidation loss.",
+    "safety_precautions": "Swarf coated in flammable cutting oils can spontaneously combust in piles.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-194",
+    "name": "Spent Foundry Casting Sand",
+    "aliases": [
+      "foundry sand",
+      "casting sand",
+      "silica sand"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Collect after casting; deliver to asphalt or concrete batching plants.",
+    "recycling_guidance": "Substitutes virgin sand in sub-base road construction and asphalt concrete mixes.",
+    "safety_precautions": "Ensure sand is tested for heavy metal binder leachability before civil use.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-195",
+    "name": "Heavy Industrial Plastic Strapping (PET/PP)",
+    "aliases": [
+      "strapping",
+      "packaging strap",
+      "crate band"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Cut into lengths under 30cm, bundle tightly in blue dry bin.",
+    "recycling_guidance": "Granulated and extruded into new industrial packaging strapping.",
+    "safety_precautions": "Long uncut straps tangle and damage industrial shredder rotating shafts.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-196",
+    "name": "Electroplating Chemical Sludge",
+    "aliases": [
+      "plating sludge",
+      "galvanic sludge",
+      "metal sludge"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Dewater sludge using filter press. Store in labeled hazardous containers.",
+    "recycling_guidance": "Disposed at authorized Common Hazardous Waste Treatment, Storage & Disposal Facilities (TSDF).",
+    "safety_precautions": "Contains lethal concentrations of cyanide, hexavalent chromium, and heavy metals.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-197",
+    "name": "Spent Electrical Transformer Oil",
+    "aliases": [
+      "transformer oil",
+      "dielectric oil"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Test for PCB contamination before handling. Hand over to specialized recycler.",
+    "recycling_guidance": "Dehydrated, degassed, and vacuum filtered back to dielectric breakdown specifications.",
+    "safety_precautions": "PCBs in older transformer oils are persistent toxic carcinogens.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-198",
+    "name": "Industrial Desiccant Silica Gel Bags",
+    "aliases": [
+      "silica gel",
+      "desiccant",
+      "moisture absorber"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Reactivate by heating in oven at 110°C, or discard in dry bin.",
+    "recycling_guidance": "Inert synthetic silica beads can be reused multiple moisture cycles.",
+    "safety_precautions": "Do not ingest. Cobalt chloride indicator beads are toxic; prefer orange indicators.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-199",
+    "name": "Industrial Grinding & Abrasive Wheels",
+    "aliases": [
+      "grinding wheel",
+      "cut off wheel",
+      "abrasive disc"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Wrap worn discs, discard in industrial dry bin.",
+    "recycling_guidance": "Crushed for silicon carbide and aluminum oxide industrial abrasive fillers.",
+    "safety_precautions": "Damaged wheels can shatter at high speed; never reuse cracked discs.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-200",
+    "name": "Industrial Plastic Drums & Carboys (200L)",
+    "aliases": [
+      "plastic drum",
+      "barrel",
+      "carboy",
+      "200l drum"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Triple-rinse chemical residue according to safety protocols; recondition for reuse.",
+    "recycling_guidance": "Reconditioned for industrial packaging or granulated into drainage conduit.",
+    "safety_precautions": "Drums previously holding toxic chemicals must be decontaminated before shredding.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-201",
+    "name": "Carbon Fiber Prepreg & Scrap Offcuts",
+    "aliases": [
+      "carbon fiber",
+      "composite scrap"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Collect clean scrap in designated bins.",
+    "recycling_guidance": "Pyrolysis ovens burn off epoxy resin matrix to recover valuable virgin carbon fibers.",
+    "safety_precautions": "Carbon fiber dust is electrically conductive and shorts factory electronic equipment.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-202",
+    "name": "Industrial Boiler Ash & Clinker",
+    "aliases": [
+      "boiler clinker",
+      "furnace slag",
+      "bottom ash"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Deliver to cement and brick manufacturing plants.",
+    "recycling_guidance": "Blended with raw cement clinker in rotary kilns.",
+    "safety_precautions": "Hot ash must be cooled completely before loading.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-203",
+    "name": "Spent Industrial Catalyst Pellets",
+    "aliases": [
+      "catalyst",
+      "catalyst pellets",
+      "refinery catalyst"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Store in inert gas purged containers; return to catalyst manufacturer.",
+    "recycling_guidance": "Acid leaching recovers precious nickel, cobalt, and molybdenum metals.",
+    "safety_precautions": "Pyrophoric catalysts can ignite spontaneously upon contact with ambient air.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-204",
+    "name": "Used Industrial Filter Cloth & Filter Bags",
+    "aliases": [
+      "filter bag",
+      "baghouse filter",
+      "filter cloth"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Shake out captured dust; dispose in industrial dry bin.",
+    "recycling_guidance": "Incinerated for energy recovery (RDF) in industrial kilns.",
+    "safety_precautions": "Wear protective respirator when changing baghouse filters.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-205",
+    "name": "Steel Shipping Drums (200L / 55 Gallon)",
+    "aliases": [
+      "steel drum",
+      "oil barrel",
+      "55 gallon drum"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "De-head and burn off residue in reconditioning furnace, or crush flat for scrap.",
+    "recycling_guidance": "Cleaned and shot-blasted for industrial drum re-use up to 10 cycles.",
+    "safety_precautions": "Never use cutting torch on closed drum; residual solvent vapors cause explosions.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-206",
+    "name": "Polypropylene Medicine Measuring Cups",
+    "aliases": [
+      "medicine cup",
+      "syrup cup"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse residue, place in blue dry bin.",
+    "recycling_guidance": "Recycled into automotive parts and buckets.",
+    "safety_precautions": "Ensure washed clean.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-207",
+    "name": "Plastic Bread Clip Closures",
+    "aliases": [
+      "bread clip",
+      "bread tag"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Collect in a small bottle or jar before recycling.",
+    "recycling_guidance": "Recycled with polystyrene stream.",
+    "safety_precautions": "Small size causes sorting loss.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-208",
+    "name": "Plastic Yogurt & Ice Cream Tubs",
+    "aliases": [
+      "curd tub",
+      "yogurt cup",
+      "ice cream tub"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse with cold water, dry, and place in blue bin.",
+    "recycling_guidance": "100% recyclable polypropylene.",
+    "safety_precautions": "Greasy food residue fouls paper sorting.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-209",
+    "name": "Plastic Blister Packaging Shells",
+    "aliases": [
+      "blister packaging",
+      "toy clamshell"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Cut cardboard backing off, place clear shell in blue bin.",
+    "recycling_guidance": "Repelletized into industrial trays.",
+    "safety_precautions": "Separate paper backing completely.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-210",
+    "name": "Plastic Garden Hose Pipe Offcuts",
+    "aliases": [
+      "hose pipe",
+      "garden hose"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Roll neatly, deliver to dry waste center.",
+    "recycling_guidance": "Recycled into heavy utility matting.",
+    "safety_precautions": "Do not throw in general mixed trash.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-211",
+    "name": "Plastic CD & DVD Jewel Cases",
+    "aliases": [
+      "cd case",
+      "dvd case",
+      "jewel case"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Remove paper sleeve inserts, place clear case in blue bin.",
+    "recycling_guidance": "Polystyrene melts into picture frames.",
+    "safety_precautions": "Remove paper liners before recycling.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-212",
+    "name": "Plastic Bubble Tea Cups with Film Lid",
+    "aliases": [
+      "boba cup",
+      "bubble tea cup"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Peel off sealing film lid completely, rinse cup, dry.",
+    "recycling_guidance": "Polypropylene cup is recycled; film lid goes to RDF.",
+    "safety_precautions": "Drink residue attracts ants.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-213",
+    "name": "Plastic Egg Cartons (Clear PET)",
+    "aliases": [
+      "clear egg carton",
+      "plastic egg tray"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse clean, crush flat, place in blue bin.",
+    "recycling_guidance": "Processed with bottle-grade PET flakes.",
+    "safety_precautions": "Ensure no broken raw egg residue.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-214",
+    "name": "Plastic Measuring Spoons & Scoops",
+    "aliases": [
+      "measuring spoon",
+      "protein scoop",
+      "detergent scoop"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse and place in dry bin.",
+    "recycling_guidance": "Recycled into industrial storage crates.",
+    "safety_precautions": "Keep with rigid plastics.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-215",
+    "name": "Plastic Sauce Squeeze Bottles",
+    "aliases": [
+      "ketchup bottle",
+      "mustard squeeze bottle"
+    ],
+    "category": "Plastic",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Fill with warm water, shake to rinse oils, dry and recycle.",
+    "recycling_guidance": "HDPE/PP stream re-pelletizing.",
+    "safety_precautions": "Greasy bottles ruin recycling bales.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-216",
+    "name": "Glass Perfume Sample Vials",
+    "aliases": [
+      "sample vial",
+      "perfume sample"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Ensure empty, place in glass bin.",
+    "recycling_guidance": "Melted in glass cullet furnaces.",
+    "safety_precautions": "Avoid breaking small glass vials.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-217",
+    "name": "Glass Dropper Bottles (Essential Oils)",
+    "aliases": [
+      "dropper bottle",
+      "essential oil bottle"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Separate rubber bulb from glass pipette, rinse bottle.",
+    "recycling_guidance": "High purity amber glass is remelted.",
+    "safety_precautions": "Rubber bulb goes to dry waste.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-218",
+    "name": "Glass Spice & Seasoning Jars",
+    "aliases": [
+      "spice jar",
+      "pepper shaker"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse out spice dust, remove plastic shaker cap, place in blue bin.",
+    "recycling_guidance": "Remelted into new food packaging.",
+    "safety_precautions": "Remove plastic cap.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-219",
+    "name": "Glass Baby Food Jars",
+    "aliases": [
+      "baby food jar",
+      "gerber jar"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse pureed fruit/veg, place metal lid in metal bin, jar in blue bin.",
+    "recycling_guidance": "High grade cullet glass for container remelting.",
+    "safety_precautions": "Rinse food residues.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-220",
+    "name": "Glass Candle Votive Holders",
+    "aliases": [
+      "votive glass",
+      "candle holder"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Scrape wax out with spoon, wipe clean, place in blue bin.",
+    "recycling_guidance": "Soda-lime glass is remelted.",
+    "safety_precautions": "Wax residue causes furnace smoke.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-221",
+    "name": "Glass Cruet Vinegar Bottles",
+    "aliases": [
+      "vinegar bottle",
+      "cruet bottle"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse with water, place in glass recycling stream.",
+    "recycling_guidance": "100% recyclable.",
+    "safety_precautions": "Remove cork or plastic stopper.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-222",
+    "name": "Glass Milk Bottles (Returnable)",
+    "aliases": [
+      "milk glass bottle",
+      "dairy bottle"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse thoroughly and return to local dairy farm or place in glass bin.",
+    "recycling_guidance": "Reused up to 30 times.",
+    "safety_precautions": "Store safely upright.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-223",
+    "name": "Glass Nail Polish Bottles (Cleaned)",
+    "aliases": [
+      "nail polish bottle",
+      "varnish bottle"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Contains solvent residue. Keep capped; place in red bin.",
+    "recycling_guidance": "Hazardous disposal processing.",
+    "safety_precautions": "Flammable solvent vapors.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-224",
+    "name": "Glass Snapple / Iced Tea Bottles",
+    "aliases": [
+      "iced tea bottle",
+      "snapple bottle"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse sweet tea residue, replace metal cap loosely, place in blue bin.",
+    "recycling_guidance": "100% recyclable cullet.",
+    "safety_precautions": "Keep clean.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-225",
+    "name": "Glass Mason Pickling Jars (Large)",
+    "aliases": [
+      "mason jar",
+      "pickle jar large"
+    ],
+    "category": "Glass",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Wash oily brine, place in blue bin.",
+    "recycling_guidance": "High strength soda-lime glass cullet.",
+    "safety_precautions": "Separate two-piece metal lid.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-226",
+    "name": "Metal Paint Roller Trays",
+    "aliases": [
+      "paint tray",
+      "roller tray"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Allow water-based paint to dry hard, or scrape clean before recycling.",
+    "recycling_guidance": "Ferrous steel is melted in arc furnaces.",
+    "safety_precautions": "Liquid oil paint must be dried first.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-227",
+    "name": "Metal Aluminum Bottle Caps",
+    "aliases": [
+      "aluminum cap",
+      "twist cap"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Collect inside a clean soda can and crimp opening.",
+    "recycling_guidance": "Recycled into secondary aluminum.",
+    "safety_precautions": "Small caps fall through sorting screens.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-228",
+    "name": "Metal Keyrings & Split Rings",
+    "aliases": [
+      "keyring",
+      "split ring"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Add to scrap metal tin.",
+    "recycling_guidance": "Melted into new steel wire.",
+    "safety_precautions": "Keep in container so it does not scatter.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-229",
+    "name": "Metal Tea Strainers (Stainless Steel)",
+    "aliases": [
+      "tea strainer",
+      "chai chhalni"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Knock out tea leaves (leaves to green bin), place strainer in blue bin.",
+    "recycling_guidance": "High grade stainless steel scrap.",
+    "safety_precautions": "Keep free of organic leaves.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-230",
+    "name": "Metal Shoe Horns",
+    "aliases": [
+      "shoe horn",
+      "metal shoe horn"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Place in blue dry bin.",
+    "recycling_guidance": "Ferrous or brass scrap recovery.",
+    "safety_precautions": "Durable metal.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-231",
+    "name": "Metal Tape Measure Casings & Blades",
+    "aliases": [
+      "tape measure",
+      "measuring tape"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Separate plastic housing from spring steel blade.",
+    "recycling_guidance": "Spring steel is melted down.",
+    "safety_precautions": "Retracting steel blade can slice fingers.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-232",
+    "name": "Metal Hand Tools (Wrenches & Pliers)",
+    "aliases": [
+      "wrench",
+      "spanner",
+      "pliers",
+      "hand tool"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Donate usable tools. Broken steel tools go to metal scrap bin.",
+    "recycling_guidance": "High tensile chromium-vanadium alloy steel.",
+    "safety_precautions": "Heavy metal scrap value.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-233",
+    "name": "Metal Baking Tins & Muffin Trays",
+    "aliases": [
+      "baking tin",
+      "muffin tray",
+      "cake pan"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Scrape burnt food crust, place in blue dry bin.",
+    "recycling_guidance": "Aluminized steel is magnetically separated and melted.",
+    "safety_precautions": "Clean off charred residue.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-234",
+    "name": "Metal Curtain Rods & Brackets",
+    "aliases": [
+      "curtain rod",
+      "drapery pole"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Bundle rods with tape, deliver to scrap center.",
+    "recycling_guidance": "Steel or aluminum extrusion remelting.",
+    "safety_precautions": "Long poles must be bundled safely.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-235",
+    "name": "Metal Brass Padlocks & Keys",
+    "aliases": [
+      "padlock",
+      "brass lock"
+    ],
+    "category": "Metal",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Deposit in metal scrap bin.",
+    "recycling_guidance": "High value copper-zinc brass foundry ingot melting.",
+    "safety_precautions": "Heavyweight item.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-236",
+    "name": "Paper Egg Cartons (Flat Tray Style)",
+    "aliases": [
+      "egg flat",
+      "poultry tray"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Keep clean and dry. Excellent for home composting.",
+    "recycling_guidance": "Molded pulp decomposes in 30 days.",
+    "safety_precautions": "Keep dry.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-237",
+    "name": "Paper Spiral Notebooks (Wire Bound)",
+    "aliases": [
+      "spiral notebook",
+      "wirebound pad"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Pull out spiral wire coil (wire to metal bin); paper to blue bin.",
+    "recycling_guidance": "Recycled into fresh writing paper.",
+    "safety_precautions": "Separating metal wire helps paper pulpers.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-238",
+    "name": "Paper Hardcover Book Covers & Pages",
+    "aliases": [
+      "hardcover book",
+      "old book"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Donate readable books. Damaged books tear out paper pages from stiff cloth spine.",
+    "recycling_guidance": "Bleached chemical paper pulp.",
+    "safety_precautions": "Cloth glued spine goes to general waste.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-239",
+    "name": "Paper Greeting Cards (No Glitter)",
+    "aliases": [
+      "greeting card",
+      "birthday card"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Ensure no plastic glitter or musical audio chip (chips go to e-waste).",
+    "recycling_guidance": "Recycled with mixed paper stream.",
+    "safety_precautions": "Remove battery audio cards first.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-240",
+    "name": "Paper Post-It Sticky Notes",
+    "aliases": [
+      "sticky note",
+      "post it"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Place in dry paper bin. Modern paper mills dissolve adhesive easily.",
+    "recycling_guidance": "High grade pulp recovery.",
+    "safety_precautions": "Safe to recycle in normal paper stream.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-241",
+    "name": "Paper Board Game Boxes",
+    "aliases": [
+      "game box",
+      "board game"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Remove plastic tokens and spinners, flatten paperboard box.",
+    "recycling_guidance": "Chipboard is repulped for packaging.",
+    "safety_precautions": "Separate plastic pawns.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-242",
+    "name": "Paper Flour & Sugar Bags",
+    "aliases": [
+      "flour bag",
+      "sugar sack paper"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Shake out flour dust, fold flat, place in blue bin.",
+    "recycling_guidance": "Heavy unbleached kraft paper adds strength to pulp.",
+    "safety_precautions": "Shake dust out to avoid clumping.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-243",
+    "name": "Paper Calendar Sheets & Desk Planners",
+    "aliases": [
+      "calendar",
+      "desk planner"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Remove metal spiral binding, place paper in blue bin.",
+    "recycling_guidance": "High quality paper recycling.",
+    "safety_precautions": "Remove plastic cover sheets.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-244",
+    "name": "Paper Pastry & Donut Boxes",
+    "aliases": [
+      "donut box",
+      "pastry box"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "If clean, place in blue bin. If saturated with butter/cream, compost in green bin.",
+    "recycling_guidance": "De-inked for paperboard.",
+    "safety_precautions": "Oil-soaked paper belongs in wet compost.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-245",
+    "name": "Paperboard Matchboxes (Spent)",
+    "aliases": [
+      "matchbox"
+    ],
+    "category": "Paper",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Ensure all matches are spent and dead cold. Place box in blue bin.",
+    "recycling_guidance": "Repulped for packaging.",
+    "safety_precautions": "Never discard lit matches.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-246",
+    "name": "Organic Pineapple Crowns & Rinds",
+    "aliases": [
+      "pineapple crown",
+      "pineapple peel"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Chop tough fibrous crown into pieces and place in green bin.",
+    "recycling_guidance": "Rich in bromelain enzyme, accelerates composting.",
+    "safety_precautions": "Tough fibers decompose faster when chopped.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-247",
+    "name": "Organic Mango Kernels & Pits",
+    "aliases": [
+      "mango seed",
+      "mango pit"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Place in green bin or home composter.",
+    "recycling_guidance": "Hard woody seed breaks down into organic carbon.",
+    "safety_precautions": "Can be planted for saplings.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-248",
+    "name": "Organic Avocado Skins & Stones",
+    "aliases": [
+      "avocado pit",
+      "avocado skin"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Drop in green bin.",
+    "recycling_guidance": "High in potassium and minerals.",
+    "safety_precautions": "Chop seed in half to speed decomposition.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-249",
+    "name": "Organic Walnut & Nut Shells",
+    "aliases": [
+      "walnut shell",
+      "pistachio shell",
+      "peanut shell"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Drop in green bin or use as plant mulching layer.",
+    "recycling_guidance": "Aerates compost pile with durable carbon pockets.",
+    "safety_precautions": "High lignin takes several months.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-250",
+    "name": "Organic Stale Bread Crusts",
+    "aliases": [
+      "bread crust",
+      "dry roti"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Place in green bin.",
+    "recycling_guidance": "Rapid bacterial breakdown.",
+    "safety_precautions": "Cover with dry leaves in compost.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-251",
+    "name": "Organic Watermelon Rinds",
+    "aliases": [
+      "watermelon rind",
+      "melon peel"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Chop into chunks, place in green bin.",
+    "recycling_guidance": "High moisture content accelerates composting bacteria.",
+    "safety_precautions": "Drain excess puddle water.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-252",
+    "name": "Organic Spoiled Milk & Curd Solids",
+    "aliases": [
+      "spoiled milk",
+      "sour curd"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Pour into kitchen bio-digester or home compost.",
+    "recycling_guidance": "Lactic acid bacteria boosts compost fermentation.",
+    "safety_precautions": "Avoid large volumes in vermicompost.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-253",
+    "name": "Organic Sugarcane Bagasse & Pulp",
+    "aliases": [
+      "bagasse",
+      "sugarcane waste"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Deliver to municipal composting skip or green bin.",
+    "recycling_guidance": "Ideal biomass fuel and organic fiber compost.",
+    "safety_precautions": "Keep free of plastic straw debris.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-254",
+    "name": "Organic Banana Stems & Flower Waste",
+    "aliases": [
+      "banana stem",
+      "banana flower"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Chop into disks, place in green bin.",
+    "recycling_guidance": "High potassium moisture-rich organic matter.",
+    "safety_precautions": "Fibrous; chop well.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-255",
+    "name": "Organic Fallen Neem Leaves & Twigs",
+    "aliases": [
+      "neem leaves",
+      "neem twigs"
+    ],
+    "category": "Organic",
+    "segregation_bin": "Wet (Green)",
+    "disposal_method": "Place in green bin. Natural pesticide in compost.",
+    "recycling_guidance": "Protects compost pile from harmful pathogens.",
+    "safety_precautions": "Excellent organic soil conditioner.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-256",
+    "name": "Hazardous Spent Button Cell Battery (Silver/Mercury)",
+    "aliases": [
+      "button cell",
+      "watch battery",
+      "cr2032"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Tape both faces with clear tape. Place in hazardous battery drop box.",
+    "recycling_guidance": "Recovers silver, nickel, and prevents mercury soil poisoning.",
+    "safety_precautions": "Swallowing hazard for infants and pets. Burns esophagus internally.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-257",
+    "name": "Hazardous Termite Control Chlorpyrifos Cans",
+    "aliases": [
+      "termite poison",
+      "chlorpyrifos"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Seal bottle tightly, take to hazardous depot.",
+    "recycling_guidance": "High temperature hazardous incineration.",
+    "safety_precautions": "Extreme neurotoxin; never wash into household sink.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-258",
+    "name": "Hazardous Brake Fluid Residual Bottles",
+    "aliases": [
+      "brake fluid",
+      "dot 4"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Deliver to automotive hazardous center.",
+    "recycling_guidance": "Industrial incineration.",
+    "safety_precautions": "Corrosive to paint and toxic if swallowed.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-259",
+    "name": "Hazardous Photographic Fixer & Developer",
+    "aliases": [
+      "photo fixer",
+      "darkroom chemical"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Surrender to hazardous waste collection.",
+    "recycling_guidance": "Electrolytic silver recovery.",
+    "safety_precautions": "Toxic to sewer biological treatment plants.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-260",
+    "name": "Hazardous Rust Remover Acid Gel",
+    "aliases": [
+      "rust remover",
+      "phosphoric acid"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Surrender to hazardous center.",
+    "recycling_guidance": "Chemical neutralization.",
+    "safety_precautions": "Causes severe chemical burns.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-261",
+    "name": "Hazardous Gun Powder & Spent Fireworks",
+    "aliases": [
+      "fireworks",
+      "patakha",
+      "firecracker"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Soak in bucket of water for 24 hours to neutralize oxidizers before disposal.",
+    "recycling_guidance": "Incinerated under explosive safety protocols.",
+    "safety_precautions": "Never throw unspent dry fireworks into garbage bins.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-262",
+    "name": "Hazardous Furniture Wood Bleach (Oxalic Acid)",
+    "aliases": [
+      "wood bleach",
+      "oxalic acid"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Keep in original labeled container, take to hazardous center.",
+    "recycling_guidance": "Hazardous neutralization.",
+    "safety_precautions": "Toxic fumes and severe eye irritant.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-263",
+    "name": "Hazardous Pool Algicide & Copper Sulfate",
+    "aliases": [
+      "algicide",
+      "copper sulfate"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Take to hazardous depot.",
+    "recycling_guidance": "Effluent neutralization.",
+    "safety_precautions": "Highly toxic to aquatic flora and fauna.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-264",
+    "name": "Hazardous Old Gas Masks with Asbestos Filters",
+    "aliases": [
+      "gas mask filter"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Seal in double polythene bag, mark hazardous.",
+    "recycling_guidance": "Engineered hazardous landfill.",
+    "safety_precautions": "Contains vintage asbestos or hexavalent chromium.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-265",
+    "name": "Hazardous Carburetor Cleaning Aerosols",
+    "aliases": [
+      "carb cleaner",
+      "throttle body cleaner"
+    ],
+    "category": "Hazardous",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Ensure empty; take to hazardous depot.",
+    "recycling_guidance": "Depressurized metal recovery.",
+    "safety_precautions": "Extremely flammable solvent.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-266",
+    "name": "Biomedical Dialysis Tubing & Cassette",
+    "aliases": [
+      "dialysis tubing",
+      "dialyzer"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Wrap in red biomedical bag, hand to hospital pickup.",
+    "recycling_guidance": "Autoclaved and incinerated under BMW guidelines.",
+    "safety_precautions": "Blood contact pathogen biohazard.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-267",
+    "name": "Biomedical IV Cannula & Butterfly Needles",
+    "aliases": [
+      "cannula",
+      "butterfly needle"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Retract safety needle, place in rigid sharps container.",
+    "recycling_guidance": "Sterilized and shredded.",
+    "safety_precautions": "Sharp puncture and pathogen transmission hazard.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-268",
+    "name": "Biomedical Blood Specimen Collection Tubes (Vacutainer)",
+    "aliases": [
+      "vacutainer",
+      "blood tube"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Surrender to diagnostic lab waste stream.",
+    "recycling_guidance": "High heat biomedical incineration.",
+    "safety_precautions": "Infectious bloodborne pathogen risk.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-269",
+    "name": "Biomedical Used Surgical Scalpel Blades",
+    "aliases": [
+      "scalpel blade",
+      "surgical blade"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Drop directly into dedicated sharps container.",
+    "recycling_guidance": "Autoclaved and encapsulated.",
+    "safety_precautions": "Razor sharp surgical cut risk.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-270",
+    "name": "Biomedical Expired Chemotherapy Vials (Cytotoxic)",
+    "aliases": [
+      "chemo vial",
+      "cytotoxic drug"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Seal in yellow cytotoxic bag. Hand over exclusively to oncology medical waste.",
+    "recycling_guidance": "High-temp destruction (>1200°C) per statutory cytotoxic protocols.",
+    "safety_precautions": "Mutagenic and carcinogenic chemicals.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-271",
+    "name": "Biomedical Blood Bag with Anticoagulant",
+    "aliases": [
+      "blood bag"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Handle exclusively through hospital biomedical vendor.",
+    "recycling_guidance": "Incinerated under strict medical regulatory supervision.",
+    "safety_precautions": "Human blood biohazard.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-272",
+    "name": "Biomedical Swabs from COVID/Flu Rapid Tests",
+    "aliases": [
+      "covid test swab",
+      "rapid test"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Seal inside plastic bag provided with kit, place in red bin.",
+    "recycling_guidance": "Sterilized in medical autoclave.",
+    "safety_precautions": "Respiratory viral pathogen hazard.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-273",
+    "name": "Biomedical Used Wooden Tongue Depressors",
+    "aliases": [
+      "tongue depressor"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Wrap in paper, place in red bin.",
+    "recycling_guidance": "Incinerated.",
+    "safety_precautions": "Saliva pathogen contamination.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-274",
+    "name": "Biomedical Suture Needle and Thread Waste",
+    "aliases": [
+      "suture needle",
+      "surgical thread"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Place in rigid sharps box.",
+    "recycling_guidance": "Encapsulation and sterilization.",
+    "safety_precautions": "Needle stick hazard.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-275",
+    "name": "Biomedical Plaster Casts & Fiberglass Splints",
+    "aliases": [
+      "plaster cast",
+      "orthopedic cast"
+    ],
+    "category": "Biomedical",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Surrender to medical waste stream.",
+    "recycling_guidance": "Autoclaved and crushed.",
+    "safety_precautions": "May contain bodily fluids.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-276",
+    "name": "Electronic Wireless Earbuds Charging Case",
+    "aliases": [
+      "airpod case",
+      "earbuds case"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Deposit at e-waste drop kiosk.",
+    "recycling_guidance": "Lithium battery and micro-circuit recovery.",
+    "safety_precautions": "Never place in normal trash.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-277",
+    "name": "Electronic Drone & Quadcopter Battery",
+    "aliases": [
+      "drone battery",
+      "lipo battery"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Discharge to safe storage voltage, tape terminals, drop at e-waste kiosk.",
+    "recycling_guidance": "Lithium polymer recovery.",
+    "safety_precautions": "Punctured LiPo batteries burst into fierce chemical flames.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-278",
+    "name": "Electronic External USB Hard Drive (HDD)",
+    "aliases": [
+      "external hard drive",
+      "hdd",
+      "usb hard drive"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Degauss or drill platter for data security, take to e-waste center.",
+    "recycling_guidance": "Recovers neodymium magnets, cast aluminum body, and drive PCB.",
+    "safety_precautions": "Erase data permanently before recycling.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-279",
+    "name": "Electronic Solid State Drive (SSD)",
+    "aliases": [
+      "ssd",
+      "nvme drive"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Securely erase encryption keys, deposit at e-waste kiosk.",
+    "recycling_guidance": "NAND flash memory and controller gold wire recovery.",
+    "safety_precautions": "Destroy cryptographic keys before disposal.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-280",
+    "name": "Electronic Electric Toothbrush Base & Charger",
+    "aliases": [
+      "electric toothbrush",
+      "sonic toothbrush"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Remove brush head (brush head to dry bin), place handle in e-waste.",
+    "recycling_guidance": "Recovers waterproof motor, induction coil, and rechargeable cell.",
+    "safety_precautions": "Sealed battery must not be incinerated.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-281",
+    "name": "Electronic Handheld Video Game Console",
+    "aliases": [
+      "gameboy",
+      "nintendo switch",
+      "psp",
+      "game console"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Factory reset, remove memory card, deliver to e-waste kiosk.",
+    "recycling_guidance": "LCD display, lithium battery, and motherboard recovery.",
+    "safety_precautions": "Erase personal accounts.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-282",
+    "name": "Electronic Smart Home Speaker (Alexa/Google Home)",
+    "aliases": [
+      "smart speaker",
+      "echo dot",
+      "google home"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Deregister account via mobile app, factory reset, drop at e-waste.",
+    "recycling_guidance": "High grade audio driver, speaker magnet, and WiFi board recovery.",
+    "safety_precautions": "Erase account credentials.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-283",
+    "name": "Electronic Smart Doorbell & Security Camera",
+    "aliases": [
+      "security camera",
+      "video doorbell",
+      "cctv"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Unlink cloud account, remove SD card, hand over to e-waste.",
+    "recycling_guidance": "Image sensor, infrared LEDs, and aluminum housing recovery.",
+    "safety_precautions": "Clear cloud storage links.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-284",
+    "name": "Electronic Handheld Laser Pointer",
+    "aliases": [
+      "laser pointer"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Remove button batteries (batteries to hazardous), tube to e-waste.",
+    "recycling_guidance": "Laser diode and brass housing recovery.",
+    "safety_precautions": "Never shine laser into eyes.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-285",
+    "name": "Electronic Old CRT Television Tube",
+    "aliases": [
+      "crt tv",
+      "picture tube"
+    ],
+    "category": "Electronic",
+    "segregation_bin": "E-Waste (Grey)",
+    "disposal_method": "Handle with extreme care to prevent implosion. Deliver to certified recycler.",
+    "recycling_guidance": "High-lead funnel glass is processed in specialized lead smelters.",
+    "safety_precautions": "Vacuum tube contains up to 2kg of toxic lead oxide; high implosion danger.",
+    "target_facility_code": "e_waste"
+  },
+  {
+    "id": "waste-286",
+    "name": "Construction Broken Concrete Roof Tiles",
+    "aliases": [
+      "roof tile",
+      "mangalore tile"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Deliver to C&D processing yard.",
+    "recycling_guidance": "Crushed for road base aggregate.",
+    "safety_precautions": "Wear safety gloves.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-287",
+    "name": "Construction Broken Window Lintel & Chajja Scraps",
+    "aliases": [
+      "lintel",
+      "concrete beam"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Deliver to municipal C&D plant.",
+    "recycling_guidance": "Crushed aggregate; rebar steel extracted magnetically.",
+    "safety_precautions": "Heavy weight; use hydraulic loader.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-288",
+    "name": "Construction Glass Mosaic Tile Sheets",
+    "aliases": [
+      "mosaic sheet",
+      "pool tiles"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Deliver to C&D recycler.",
+    "recycling_guidance": "Crushed for decorative stone aggregate.",
+    "safety_precautions": "Sharp glass mesh backing.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-289",
+    "name": "Construction Poured Epoxy Flooring Residue",
+    "aliases": [
+      "epoxy scrap",
+      "flooring resin"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Cured non-toxic epoxy chunks go to C&D depot.",
+    "recycling_guidance": "Ground into industrial filler.",
+    "safety_precautions": "Liquid uncured epoxy is Hazardous (Red).",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-290",
+    "name": "Construction Expanded Clay Aggregate Pellets",
+    "aliases": [
+      "clay aggregate",
+      "leca"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Deliver to landscaping or C&D recovery.",
+    "recycling_guidance": "Reused for lightweight garden drainage.",
+    "safety_precautions": "Non-toxic.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-291",
+    "name": "Construction Broken Clay Flower Pots (Gamla)",
+    "aliases": [
+      "gamla",
+      "clay pot",
+      "terracotta"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Construction (Dry)",
+    "disposal_method": "Crush shards to place at bottom of new pots for drainage.",
+    "recycling_guidance": "100% natural fired clay; acts as root aeration rocks.",
+    "safety_precautions": "Sharp fired clay edges.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-292",
+    "name": "Construction Steel Wire Binding Scraps",
+    "aliases": [
+      "binding wire",
+      "rebar wire"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Bundle into a ball; place in metal scrap bin.",
+    "recycling_guidance": "High grade mild steel melting.",
+    "safety_precautions": "Puncture risk; bundle tightly.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-293",
+    "name": "Construction Plastic Expansion Wall Plugs (Rawlplug)",
+    "aliases": [
+      "rawlplug",
+      "wall plug",
+      "gitti"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Collect in dry bin.",
+    "recycling_guidance": "Polyethylene plastic recycling.",
+    "safety_precautions": "Keep in container.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-294",
+    "name": "Construction Sandpaper & Emery Paper Sheets",
+    "aliases": [
+      "sandpaper",
+      "emery sheet"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Discard worn sandpaper in dry bin.",
+    "recycling_guidance": "Abrasive grains on paper/cloth back.",
+    "safety_precautions": "Inert disposal.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-295",
+    "name": "Construction Scaffolding Clamp Fixtures (Damaged)",
+    "aliases": [
+      "scaffold clamp",
+      "pipe coupler"
+    ],
+    "category": "Construction",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Deliver to steel scrap yard.",
+    "recycling_guidance": "Drop forged steel remelting.",
+    "safety_precautions": "Heavy weight.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-296",
+    "name": "Textile Velvet & Corduroy Garments",
+    "aliases": [
+      "velvet",
+      "corduroy"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Launder and donate or recycle.",
+    "recycling_guidance": "Shredded for upholstery padding.",
+    "safety_precautions": "Keep dry.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-297",
+    "name": "Textile Terrycloth Bath Towels",
+    "aliases": [
+      "bath towel",
+      "hand towel"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Clean towels donate to animal shelters; torn towels make cleaning rags.",
+    "recycling_guidance": "Heavy cotton terry fiber reclamation.",
+    "safety_precautions": "Wash before donation.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-298",
+    "name": "Textile Synthetic Fleece Gloves & Beanies",
+    "aliases": [
+      "gloves",
+      "beanie",
+      "fleece cap"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Donate or place in textile recovery.",
+    "recycling_guidance": "Fleece fiber recycling.",
+    "safety_precautions": "Keep paired.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-299",
+    "name": "Textile Raincoat & Poncho (PVC/EVA)",
+    "aliases": [
+      "raincoat",
+      "waterproof poncho"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Air-dry, fold, place in plastic/textile bin.",
+    "recycling_guidance": "Flexible vinyl recycling.",
+    "safety_precautions": "Do not store damp.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-300",
+    "name": "Textile Sleeping Bag (Synthetic Fill)",
+    "aliases": [
+      "sleeping bag"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Donate to homeless shelters; damaged bags surrender to textile recovery.",
+    "recycling_guidance": "Hollow-fiber polyester insulation recovery.",
+    "safety_precautions": "Launder before donation.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-301",
+    "name": "Textile Backpack & School Bag",
+    "aliases": [
+      "school bag",
+      "backpack"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Empty all pens and trash; donate or place in textile recovery.",
+    "recycling_guidance": "Heavy nylon fabric and zipper metal recovery.",
+    "safety_precautions": "Empty all compartments.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-302",
+    "name": "Textile Silk Ties & Bowties",
+    "aliases": [
+      "necktie",
+      "silk tie"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Donate usable ties.",
+    "recycling_guidance": "Silk fiber reclaimed for craft accessories.",
+    "safety_precautions": "Keep clean.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-303",
+    "name": "Textile Thermal Winter Innerwear",
+    "aliases": [
+      "thermals",
+      "long johns"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Wash clean, place in textile recycling.",
+    "recycling_guidance": "Shredded for acoustic insulation.",
+    "safety_precautions": "Wash thoroughly.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-304",
+    "name": "Textile Tablecloth & Cloth Napkins",
+    "aliases": [
+      "tablecloth",
+      "cloth napkin"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Wash food stains; place in textile bin.",
+    "recycling_guidance": "Cotton fibers re-spun.",
+    "safety_precautions": "Remove greasy food stains.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-305",
+    "name": "Textile Swimming Trunks & Spandex Lycra",
+    "aliases": [
+      "swimsuit",
+      "lycra",
+      "spandex"
+    ],
+    "category": "Textile",
+    "segregation_bin": "Textile (Dry)",
+    "disposal_method": "Rinse chlorine, place in textile recovery.",
+    "recycling_guidance": "Elastane polymer downcycling.",
+    "safety_precautions": "Dry thoroughly.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-306",
+    "name": "Household Plastic Bath Loofah Mesh",
+    "aliases": [
+      "loofah",
+      "bath sponge"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Rinse soap, wring dry, place in dry bin.",
+    "recycling_guidance": "Polyethylene mesh shredded for RDF.",
+    "safety_precautions": "Replace every month for hygiene.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-307",
+    "name": "Household Cotton Earbuds (Plastic Stem)",
+    "aliases": [
+      "q tip",
+      "cotton bud",
+      "ear swab"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Place in dry waste bin. Switch to bamboo stems.",
+    "recycling_guidance": "Incinerated.",
+    "safety_precautions": "Never flush down toilet; plastic stems escape sewage filters.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-308",
+    "name": "Household Wooden Matchsticks (Burnt)",
+    "aliases": [
+      "matchstick"
+    ],
+    "category": "Household",
+    "segregation_bin": "Organic / Wet (Green)",
+    "disposal_method": "Ensure completely cold; place in green compost bin.",
+    "recycling_guidance": "Biodegradable wood carbon.",
+    "safety_precautions": "Never throw hot matches.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-309",
+    "name": "Household Used Floor Mop Head (Cotton Strings)",
+    "aliases": [
+      "mop head",
+      "floor mop"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Rinse chemicals, dry, place in dry waste.",
+    "recycling_guidance": "Downcycled for industrial padding.",
+    "safety_precautions": "Let dry to prevent mildew.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-310",
+    "name": "Household Vacuum Sealed Freshness Bags",
+    "aliases": [
+      "vacuum bag",
+      "food saver bag"
+    ],
+    "category": "Household",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse food oils, dry, place in blue bin.",
+    "recycling_guidance": "Recycled with multi-layer films.",
+    "safety_precautions": "Keep clean.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-311",
+    "name": "Household Plastic Ice Cube Trays (Damaged)",
+    "aliases": [
+      "ice tray",
+      "ice cube tray"
+    ],
+    "category": "Household",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Place in blue dry bin.",
+    "recycling_guidance": "High grade polypropylene recycling.",
+    "safety_precautions": "Durable plastic.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-312",
+    "name": "Household Disposable Shaving Razor (Plastic/Metal)",
+    "aliases": [
+      "disposable razor",
+      "shaving razor",
+      "gillette razor"
+    ],
+    "category": "Household",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Wrap blade guard or tape over sharp blades, place in red bin.",
+    "recycling_guidance": "Incinerated or shredded under medical/sharp protocols.",
+    "safety_precautions": "Razor sharp blades lacerate waste collectors' fingers.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-313",
+    "name": "Household Shoe Insole Cushion Inserts",
+    "aliases": [
+      "shoe insole",
+      "gel insole"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Place in dry bin.",
+    "recycling_guidance": "Downcycled for playground rubber turf.",
+    "safety_precautions": "Non-biodegradable.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-314",
+    "name": "Household Plastic Clothes Peg Springs",
+    "aliases": [
+      "peg spring"
+    ],
+    "category": "Household",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Place in metal scrap tin.",
+    "recycling_guidance": "Steel recycling.",
+    "safety_precautions": "Keep in tin.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-315",
+    "name": "Household Silica Packet in Shoe Boxes",
+    "aliases": [
+      "silica packet"
+    ],
+    "category": "Household",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Keep in dry waste bin.",
+    "recycling_guidance": "Inert disposal.",
+    "safety_precautions": "Do not eat.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-316",
+    "name": "Automotive Used Brake Fluid Cans",
+    "aliases": [
+      "brake fluid can"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Seal can tightly, surrender to hazardous auto station.",
+    "recycling_guidance": "Hazardous fuel blending.",
+    "safety_precautions": "Corrosive solvent.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-317",
+    "name": "Automotive Power Steering Fluid Bottle",
+    "aliases": [
+      "power steering fluid"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Seal cap, take to hazardous auto depot.",
+    "recycling_guidance": "Re-refining.",
+    "safety_precautions": "Hazardous oil.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-318",
+    "name": "Automotive Used Cabin Pollen Filter",
+    "aliases": [
+      "cabin filter",
+      "ac filter car"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Place in dry waste bin.",
+    "recycling_guidance": "Non-woven synthetic fabric.",
+    "safety_precautions": "Shake loose leaves out.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-319",
+    "name": "Automotive Broken Wing Mirror Glass",
+    "aliases": [
+      "wing mirror",
+      "side mirror"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Wrap in cardboard, place in blue bin.",
+    "recycling_guidance": "Flat glass recycling.",
+    "safety_precautions": "Sharp mirror edges.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-320",
+    "name": "Automotive Broken Plastic Bumper Cover",
+    "aliases": [
+      "car bumper",
+      "bumper scrap"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Take to automotive plastic recovery center.",
+    "recycling_guidance": "Polypropylene-EPDM thermoplastic is granulated for new car parts.",
+    "safety_precautions": "High value polymer.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-321",
+    "name": "Automotive Blown Dashboard Instrument Fuses",
+    "aliases": [
+      "car fuse",
+      "blade fuse"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Drop in metal scrap tin.",
+    "recycling_guidance": "Zinc alloy and plastic casing.",
+    "safety_precautions": "Keep in container.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-322",
+    "name": "Automotive Used Oil Pan Drain Plug Gasket",
+    "aliases": [
+      "crush washer",
+      "drain plug gasket"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Wipe oil, add to metal scrap.",
+    "recycling_guidance": "Copper or aluminum recycling.",
+    "safety_precautions": "Clean off grease.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-323",
+    "name": "Automotive Worn Fan Belt & Serpentine Belt",
+    "aliases": [
+      "fan belt",
+      "timing belt",
+      "serpentine belt"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Automotive (Dry)",
+    "disposal_method": "Discard in dry bin.",
+    "recycling_guidance": "Rubber with Kevlar fibers shredded for industrial fuel.",
+    "safety_precautions": "Durable synthetic rubber.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-324",
+    "name": "Automotive Used Windshield Washer Fluid Jug",
+    "aliases": [
+      "washer fluid bottle"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Rinse with water, flatten, place in blue bin.",
+    "recycling_guidance": "HDPE plastic recycling.",
+    "safety_precautions": "Rinse blue methanol dye.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-325",
+    "name": "Automotive Broken Wheel Hub Cap Cover",
+    "aliases": [
+      "hubcap",
+      "wheel cover"
+    ],
+    "category": "Automotive",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Take to auto plastics recycler.",
+    "recycling_guidance": "Tough ABS/nylon is granulated.",
+    "safety_precautions": "Heavy duty plastic.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-326",
+    "name": "Industrial Fiber Drum (Cardboard Barrel)",
+    "aliases": [
+      "fiber drum",
+      "cardboard drum"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Remove metal locking ring (to metal bin), cardboard drum to paper recycling.",
+    "recycling_guidance": "Heavy kraft paperboard pulping.",
+    "safety_precautions": "Separate metal chimes.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-327",
+    "name": "Industrial Bubble Foil Thermal Pallet Cover",
+    "aliases": [
+      "thermal pallet cover"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Clean and fold, place in industrial dry stream.",
+    "recycling_guidance": "Polyethylene and aluminum separation.",
+    "safety_precautions": "Clean off grease.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-328",
+    "name": "Industrial Desiccant Clay Bags",
+    "aliases": [
+      "clay desiccant",
+      "bentonite bag"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Natural bentonite clay can be composted; outer bag to dry bin.",
+    "recycling_guidance": "Natural mineral filler.",
+    "safety_precautions": "Non-toxic.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-329",
+    "name": "Industrial Steel Strapping Clips & Seals",
+    "aliases": [
+      "strap seal",
+      "banding clip"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Collect in scrap steel tin.",
+    "recycling_guidance": "Steel recycling.",
+    "safety_precautions": "Sharp edges.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-330",
+    "name": "Industrial High-Density Polystyrene DPC Spacers",
+    "aliases": [
+      "dpc spacer",
+      "rebar chair"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Place in rigid plastics bin.",
+    "recycling_guidance": "Melted into industrial plastic lumber.",
+    "safety_precautions": "Keep clean of mortar.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-331",
+    "name": "Industrial Hydraulic Hose Offcuts with Fittings",
+    "aliases": [
+      "hydraulic hose"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Industrial (Dry)",
+    "disposal_method": "Drain residual hydraulic oil, take to industrial metal/rubber scrap.",
+    "recycling_guidance": "Steel wire braided inner core is melted; rubber is downcycled.",
+    "safety_precautions": "Oil inside is hazardous; drain completely.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-332",
+    "name": "Industrial Used Leather Work Gloves",
+    "aliases": [
+      "work gloves",
+      "welding gloves"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Household (Dry)",
+    "disposal_method": "Heavily grease-soiled leather discard in dry waste bin.",
+    "recycling_guidance": "Incinerated for industrial energy recovery.",
+    "safety_precautions": "Protects hands during disposal.",
+    "target_facility_code": "dustbin"
+  },
+  {
+    "id": "waste-333",
+    "name": "Industrial Empty Grease Gun Cartridges",
+    "aliases": [
+      "grease cartridge"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Hazardous (Red)",
+    "disposal_method": "Cap cartridge, surrender to industrial hazardous station.",
+    "recycling_guidance": "Industrial hazardous thermal destruction.",
+    "safety_precautions": "Residual lithium grease is toxic.",
+    "target_facility_code": "hazardous"
+  },
+  {
+    "id": "waste-334",
+    "name": "Industrial Polycarbonate Machine Safety Guards",
+    "aliases": [
+      "safety guard",
+      "machine shield"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Deliver to plastic recyclers.",
+    "recycling_guidance": "High impact optical grade polycarbonate.",
+    "safety_precautions": "High scrap value.",
+    "target_facility_code": "recycling"
+  },
+  {
+    "id": "waste-335",
+    "name": "Industrial Used Anti-Static ESD Bags",
+    "aliases": [
+      "esd bag",
+      "static shielding bag"
+    ],
+    "category": "Industrial",
+    "segregation_bin": "Dry (Blue)",
+    "disposal_method": "Collect clean bags, place in dry bin.",
+    "recycling_guidance": "Metalized polyester layer.",
+    "safety_precautions": "Keep dry.",
+    "target_facility_code": "recycling"
+  }
+]

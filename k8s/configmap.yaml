@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wastecare-config
+  namespace: wastecare-production
+data:
+  PROJECT_NAME: "WasteCare Municipal Enterprise Platform"
+  ENVIRONMENT: "production"
+  BACKEND_CORS_ORIGINS: '["https://wastecare.gov","https://api.wastecare.gov","https://admin.wastecare.gov"]'
+  CACHE_ENABLED: "true"
+  CACHE_DEFAULT_TTL: "300"
+  DB_POOL_SIZE: "30"
+  DB_MAX_OVERFLOW: "40"
+  LOG_LEVEL: "INFO"
+  NEXT_PUBLIC_API_URL: "https://api.wastecare.gov/api/v1"

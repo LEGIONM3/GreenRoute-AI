@@ -1,0 +1,49 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 1,
+  "id": 104,
+  "links": [],
+  "liveNow": true,
+  "panels": [
+    {
+      "title": "Nearest Facility Search Latency (Target < 100ms)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "targets": [
+        { "expr": "rate(gis_nearest_duration_seconds_sum[1m]) / rate(gis_nearest_duration_seconds_count[1m]) * 1000", "legendFormat": "Nearest Search Latency (ms)" }
+      ]
+    },
+    {
+      "title": "Spatial Radius Query Volume (Lookups / Sec)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "targets": [
+        { "expr": "rate(gis_radius_queries_total[1m])", "legendFormat": "Radius Queries/sec" }
+      ]
+    },
+    {
+      "title": "Polygon Boundary Intersection Evaluations",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 8 },
+      "targets": [
+        { "expr": "rate(gis_polygon_checks_total[1m])", "legendFormat": "Raycast Polygon Checks/sec" }
+      ]
+    },
+    {
+      "title": "Vehicle Route Optimization Solver Runtime (ms)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 8 },
+      "targets": [
+        { "expr": "rate(gis_route_optimization_duration_seconds_sum[1m]) / rate(gis_route_optimization_duration_seconds_count[1m]) * 1000", "legendFormat": "TSP Solver Duration (ms)" }
+      ]
+    }
+  ],
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["phase11", "performance", "gis", "mapping"],
+  "time": { "from": "now-1h", "to": "now" },
+  "title": "Municipal SaaS - GIS Spatial Metrics",
+  "version": 1
+}

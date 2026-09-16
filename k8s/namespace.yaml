@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: wastecare-production
+  labels:
+    environment: production
+    app.kubernetes.io/part-of: wastecare-platform

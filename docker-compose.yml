@@ -1,0 +1,69 @@
+services:
+  # PostgreSQL database with pgvector extension
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: wastecare_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-wasteuser}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-wastepass123}
+      POSTGRES_DB: ${POSTGRES_DB:-wastedb}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-wasteuser} -d ${POSTGRES_DB:-wastedb}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # FastAPI Backend API Service
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: wastecare_backend
+    restart: unless-stopped
+    environment:
+      - PROJECT_NAME=Smart Waste Management & Disposal Platform
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-wasteuser}:${POSTGRES_PASSWORD:-wastepass123}@db:5432/${POSTGRES_DB:-wastedb}
+      - SECRET_KEY=${SECRET_KEY:-supersecretkey_change_in_production_1234567890!@#$%^}
+      - BACKEND_CORS_ORIGINS=["http://localhost:3000","http://127.0.0.1:3000"]
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - ADMIN_EMAIL=${ADMIN_EMAIL:-admin@wastecare.gov}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-Admin@123456}
+      - CITIZEN_EMAIL=${CITIZEN_EMAIL:-citizen@wastecare.gov}
+      - CITIZEN_PASSWORD=${CITIZEN_PASSWORD:-Citizen@123456}
+    ports:
+      - "8000:8000"
+    volumes:
+      - backend_uploads:/app/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+
+  # Next.js 15 Frontend Web UI
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: wastecare_frontend
+    restart: unless-stopped
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000/api/v1
+    ports:
+      - "3000:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+  backend_uploads:

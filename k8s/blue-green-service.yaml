@@ -1,0 +1,84 @@
+# ==============================================================================
+# Blue-Green Zero-Downtime Deployment Configuration
+# Toggle active service selector between 'blue' and 'green' versions
+# ==============================================================================
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: wastecare-backend-production-active
+  namespace: wastecare-production
+  labels:
+    app.kubernetes.io/name: wastecare-backend
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8000
+      targetPort: 8000
+      name: http
+  # Switch this label selector to 'green' during zero-downtime release
+  selector:
+    app.kubernetes.io/name: wastecare-backend
+    deployment-slot: blue
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wastecare-backend-blue
+  namespace: wastecare-production
+  labels:
+    app.kubernetes.io/name: wastecare-backend
+    deployment-slot: blue
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: wastecare-backend
+      deployment-slot: blue
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: wastecare-backend
+        deployment-slot: blue
+    spec:
+      containers:
+        - name: backend
+          image: ghcr.io/wastecare/wastecare-backend:1.0.0
+          ports:
+            - containerPort: 8000
+          envFrom:
+            - configMapRef:
+                name: wastecare-config
+            - secretRef:
+                name: wastecare-secrets
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wastecare-backend-green
+  namespace: wastecare-production
+  labels:
+    app.kubernetes.io/name: wastecare-backend
+    deployment-slot: green
+spec:
+  replicas: 0 # Scaled up to 3 during rollout, then active service selector switched
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: wastecare-backend
+      deployment-slot: green
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: wastecare-backend
+        deployment-slot: green
+    spec:
+      containers:
+        - name: backend
+          image: ghcr.io/wastecare/wastecare-backend:1.1.0
+          ports:
+            - containerPort: 8000
+          envFrom:
+            - configMapRef:
+                name: wastecare-config
+            - secretRef:
+                name: wastecare-secrets

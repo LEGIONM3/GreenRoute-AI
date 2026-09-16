@@ -1,0 +1,51 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 1,
+  "id": 106,
+  "links": [],
+  "liveNow": true,
+  "panels": [
+    {
+      "title": "Authentication Latency (Target < 100ms)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "targets": [
+        { "expr": "rate(auth_duration_seconds_sum[1m]) / rate(auth_duration_seconds_count[1m]) * 1000", "legendFormat": "Login Verification Latency (ms)" }
+      ]
+    },
+    {
+      "title": "Successful Logins vs Failed Attempts",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "targets": [
+        { "expr": "rate(auth_success_total[1m])", "legendFormat": "Successful Logins" },
+        { "expr": "rate(auth_failures_total[1m])", "legendFormat": "Failed Attempts (Brute Force Alert)" }
+      ]
+    },
+    {
+      "title": "MFA Verification Latency & Pass Rate",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 8 },
+      "targets": [
+        { "expr": "rate(mfa_verifications_total{status=\"success\"}[1m])", "legendFormat": "MFA Success" },
+        { "expr": "rate(mfa_verifications_total{status=\"failed\"}[1m])", "legendFormat": "MFA Rejections" }
+      ]
+    },
+    {
+      "title": "Active Concurrent Sessions Across All Tenants",
+      "type": "stat",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 8 },
+      "targets": [
+        { "expr": "user_sessions_active_total", "legendFormat": "Active Citizen & Admin Sessions" }
+      ]
+    }
+  ],
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["phase11", "performance", "auth", "security"],
+  "time": { "from": "now-1h", "to": "now" },
+  "title": "Municipal SaaS - Authentication & MFA Performance",
+  "version": 1
+}

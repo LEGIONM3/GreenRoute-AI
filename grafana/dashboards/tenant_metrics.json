@@ -1,0 +1,49 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 1,
+  "id": 105,
+  "links": [],
+  "liveNow": true,
+  "panels": [
+    {
+      "title": "Requests per Second by Tenant ID",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "targets": [
+        { "expr": "sum(rate(http_requests_total[1m])) by (tenant_id)", "legendFormat": "Tenant: {{tenant_id}}" }
+      ]
+    },
+    {
+      "title": "Active Municipal Tenants (Total)",
+      "type": "stat",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "targets": [
+        { "expr": "active_tenants_total", "legendFormat": "Connected Municipalities" }
+      ]
+    },
+    {
+      "title": "Incident Reports Submitted per Tenant",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 8 },
+      "targets": [
+        { "expr": "sum(rate(reports_created_total[5m])) by (tenant_id)", "legendFormat": "{{tenant_id}} Reports" }
+      ]
+    },
+    {
+      "title": "Cache Memory Utilization per Tenant",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 8 },
+      "targets": [
+        { "expr": "sum(cache_keys_count) by (tenant_id)", "legendFormat": "{{tenant_id}} Cached Keys" }
+      ]
+    }
+  ],
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["phase11", "performance", "tenancy"],
+  "time": { "from": "now-1h", "to": "now" },
+  "title": "Municipal SaaS - Multi-Tenant Telemetry",
+  "version": 1
+}

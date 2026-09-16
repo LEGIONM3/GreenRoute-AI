@@ -1,0 +1,52 @@
+﻿# Dependencies
+node_modules/
+*/node_modules/
+.venv/
+*/.venv/
+env/
+venv/
+
+# Next.js
+.next/
+*/.next/
+out/
+build/
+dist/
+
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Databases & local storage
+*.db
+*.sqlite
+*.sqlite3
+backend/app/uploads/
+backend/uploads/
+uploads/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log

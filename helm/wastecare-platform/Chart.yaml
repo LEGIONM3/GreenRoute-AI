@@ -1,0 +1,14 @@
+apiVersion: v2
+name: wastecare-platform
+description: Helm chart for WasteCare Enterprise Municipal SaaS Platform
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+keywords:
+  - smart-waste
+  - municipal-saas
+  - gis
+  - rag-ai
+maintainers:
+  - name: Enterprise Municipal Ops Team
+    email: devops@wastecare.gov

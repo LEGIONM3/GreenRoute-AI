@@ -1,0 +1,67 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 1,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "title": "Total Civic HTTP Requests / Sec",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 8, "x": 0, "y": 0 },
+      "targets": [
+        { "expr": "rate(http_requests_total[1m])", "legendFormat": "{{method}} {{endpoint}}" }
+      ]
+    },
+    {
+      "title": "P95 API Latency (seconds)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 8, "x": 8, "y": 0 },
+      "targets": [
+        { "expr": "rate(http_request_duration_seconds_sum[1m]) / rate(http_request_duration_seconds_count[1m])", "legendFormat": "P95 Latency" }
+      ]
+    },
+    {
+      "title": "Groq LPU Token Consumption Rate",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 8, "x": 16, "y": 0 },
+      "targets": [
+        { "expr": "rate(groq_tokens_total[5m])", "legendFormat": "Tokens / sec" }
+      ]
+    },
+    {
+      "title": "Overflowing IoT Smart Bins (Alert Threshold)",
+      "type": "stat",
+      "gridPos": { "h": 6, "w": 8, "x": 0, "y": 8 },
+      "targets": [
+        { "expr": "smart_bins_overflowing", "legendFormat": "Overflowing Bins" }
+      ]
+    },
+    {
+      "title": "Authentication Failures & Brute Force Attacks",
+      "type": "timeseries",
+      "gridPos": { "h": 6, "w": 8, "x": 8, "y": 8 },
+      "targets": [
+        { "expr": "rate(auth_failures_total[5m])", "legendFormat": "Auth Failures" }
+      ]
+    },
+    {
+      "title": "Active Municipal Tenants",
+      "type": "stat",
+      "gridPos": { "h": 6, "w": 8, "x": 16, "y": 8 },
+      "targets": [
+        { "expr": "active_tenants_total", "legendFormat": "Tenants" }
+      ]
+    }
+  ],
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["municipal", "wastecare", "enterprise", "saas"],
+  "time": { "from": "now-6h", "to": "now" },
+  "timezone": "browser",
+  "title": "WasteCare Municipal SaaS - Executive Observability",
+  "uid": "wastecare-saas-exec",
+  "version": 1
+}

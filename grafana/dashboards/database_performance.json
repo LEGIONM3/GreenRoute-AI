@@ -1,0 +1,51 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 1,
+  "id": 102,
+  "links": [],
+  "liveNow": true,
+  "panels": [
+    {
+      "title": "Database Connection Pool Utilization (Active vs Overflow)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "targets": [
+        { "expr": "db_pool_active_connections", "legendFormat": "Active Connections (Max: 25)" },
+        { "expr": "db_pool_overflow_connections", "legendFormat": "Overflow Connections (Max: 35)" }
+      ]
+    },
+    {
+      "title": "Average Query Execution Duration (ms)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "targets": [
+        { "expr": "rate(db_query_duration_seconds_sum[1m]) / rate(db_query_duration_seconds_count[1m]) * 1000", "legendFormat": "Avg Query Latency (ms)" }
+      ]
+    },
+    {
+      "title": "Slow Query Incidents (> 250ms)",
+      "type": "stat",
+      "gridPos": { "h": 8, "w": 8, "x": 0, "y": 8 },
+      "targets": [
+        { "expr": "sum(increase(db_slow_queries_total[1h]))", "legendFormat": "Slow Queries in Past Hour" }
+      ]
+    },
+    {
+      "title": "Transaction Commit & Rollback Frequency",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 16, "x": 8, "y": 8 },
+      "targets": [
+        { "expr": "rate(db_commits_total[1m])", "legendFormat": "Commits/sec" },
+        { "expr": "rate(db_rollbacks_total[1m])", "legendFormat": "Rollbacks/sec" }
+      ]
+    }
+  ],
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["phase11", "performance", "database"],
+  "time": { "from": "now-1h", "to": "now" },
+  "title": "Municipal SaaS - Database Performance & Pooling",
+  "version": 1
+}

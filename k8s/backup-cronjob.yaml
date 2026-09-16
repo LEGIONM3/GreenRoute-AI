@@ -1,0 +1,49 @@
+# ==============================================================================
+# Automated Database Backup CronJob (RPO < 1 hour, Daily & Hourly Snapshot)
+# ==============================================================================
+
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: wastecare-db-backup
+  namespace: wastecare-production
+spec:
+  # Runs every hour at minute 0
+  schedule: "0 * * * *"
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 5
+  concurrencyPolicy: Forbid
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: postgres-backup
+              image: postgres:16-alpine
+              command:
+                - /bin/sh
+                - -c
+                - |
+                  set -e
+                  TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+                  BACKUP_FILE="/backups/wastecare_backup_${TIMESTAMP}.sql.gz"
+                  echo "Starting PostgreSQL backup: ${BACKUP_FILE}"
+                  PGPASSWORD="${PGPASSWORD}" pg_dump -h postgres-service -U wasteadmin -d wastecare_production | gzip > "${BACKUP_FILE}"
+                  echo "Backup completed successfully. Size: $(ls -lh ${BACKUP_FILE} | awk '{print $5}')"
+                  # Prune backups older than 7 days
+                  find /backups -name "wastecare_backup_*.sql.gz" -mtime +7 -delete
+                  echo "Retention cleanup completed."
+              env:
+                - name: PGPASSWORD
+                  valueFrom:
+                    secretKeyRef:
+                      name: wastecare-secrets
+                      key: DATABASE_URL
+              volumeMounts:
+                - name: backup-storage
+                  mountPath: /backups
+          volumes:
+            - name: backup-storage
+              persistentVolumeClaim:
+                claimName: wastecare-backup-pvc

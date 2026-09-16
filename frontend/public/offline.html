@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WasteCare - Offline Mode</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      background-color: rgba(5, 150, 105, 0.2);
+      color: #34d399;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0 0 12px 0;
+    }
+    p {
+      color: #94a3b8;
+      max-width: 480px;
+      line-height: 1.6;
+      margin: 0 0 24px 0;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #059669;
+      color: #ffffff;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.2s;
+    }
+    .btn:hover {
+      background-color: #047857;
+    }
+    .cached-links {
+      margin-top: 32px;
+      border-top: 1px solid #1e293b;
+      padding-top: 24px;
+    }
+    .cached-links a {
+      color: #38bdf8;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="badge">Offline Resilience Active</div>
+  <h1>You Are Currently Offline</h1>
+  <p>
+    WasteCare has preserved critical local municipal data. You can still browse saved disposal facilities, view offline awareness guidelines, and review your cached reports.
+  </p>
+  <button class="btn" onclick="window.location.reload()">Retry Connection</button>
+  <div class="cached-links">
+    <a href="/map">Cached Facilities Map</a>
+    <a href="/awareness">Awareness Articles</a>
+    <a href="/policies">Policy Library</a>
+    <a href="/reports">Stored Complaint Drafts</a>
+  </div>
+</body>
+</html>
